@@ -7,7 +7,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import url(//fonts.googleapis.com/css?family=Roboto:400,700,500|Roboto+Slab:400,700);
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:400,400i,600,700,900';
 html {
   font-family: sans-serif;
   /* 1 */
@@ -438,9 +438,17 @@ textarea {
    ========================================================================== */
 /* set everything to "box-sizing:border-box" –
  * the Grid won't work otherwise
+
+ * new notation - if anything is set to "content-box", it will be able to inherit
+ * this to it's child elements
  */
-* {
+html {
   box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 /*
  * Hide visually and from screen readers:
@@ -1229,152 +1237,39 @@ textarea {
   }
 }
 /* get google fonts */
-/* get the icon font */
 /* typography */
 /* colors */
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 header {
-  background: rgba(159, 201, 162, 0.3);
-  text-align: center;
-  padding-bottom: 1em;
-  text-transform: uppercase;
+  padding: 20px;
 }
-header .logo {
-  padding: 2em 2em 1em;
-}
-header .logo img {
-  width: 20em;
-  max-width: 100%;
-  height: auto;
+header .hero {
+  opacity: 0.92;
+  background-image: -webkit-linear-gradient(239deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+  background-image: linear-gradient(-149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+  height: 96vh;
+  position: relative;
+  min-height: 41vw;
 }
 header h1 {
-  font: bold 3.4em/1.4 'Roboto Slab', serif;
   margin: 0;
-  color: #47914D;
-  letter-spacing: 0.20em;
-}
-header p.intro {
-  font: normal 1.2em/1.2 'Roboto', sans-serif;
-  color: #61666a;
-  letter-spacing: 0.40em;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  header {
-    font-size: 80%;
-  }
-}
-@media (max-width: 480px) {
-  header {
-    font-size: 50%;
-  }
-}
-.arrow-wrapper {
-  height: 4em;
-  overflow-x: hidden;
-  position: relative;
-  margin-bottom: 1em;
-}
-.arrow-down {
-  width: 2000px;
+  padding: 11vw 8vw;
+  font: 900 11.2vw/0.8 'Source Sans Pro', sans-serif;
+  letter-spacing: -0.02em;
   position: absolute;
-  left: 50%;
-  margin-left: -1000px;
-  border-top: 4em solid rgba(159, 201, 162, 0.3);
-  border-bottom: 0px solid transparent;
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
+  bottom: 0;
+  text-transform: uppercase;
 }
-.arrow-up {
-  width: 2000px;
-  position: absolute;
-  left: 50%;
-  margin-left: -1000px;
-  border-top: 0px solid transparent;
-  border-bottom: 4em solid rgba(159, 201, 162, 0.3);
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
+header h1 {
+  color: #fff;
 }
-/* ===================================================
-   The Intro
-   =================================================== */
-.intro h3 {
-  font: normal 1.8em/1.4 'Roboto Slab', serif;
-  color: #61666a;
-  text-align: center;
-}
-.intro h2 {
-  font: bold 2.1em/1.8 'Roboto Slab', serif;
-  text-align: center;
-  color: #47914D;
-}
-.intro .plus {
-  font-size: 2em;
-  font-weight: bold;
-  color: rgba(159, 201, 162, 0.57);
-}
-.intro .intro-1 p,
-.intro .intro-2 p {
-  color: #61666a;
-  padding: 1em 0;
-}
-.intro .intro-1 {
-  position: relative;
-}
-.intro .intro-1:before {
-  content: "";
-  border-right: 1px solid #ebebeb;
-  position: absolute;
-  right: -30%;
-  top: 0;
-  height: 100%;
-}
-.intro .intro-1:after {
-  content: "+";
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  right: -30%;
-  font: bold 3em/0.62 'Roboto', sans-serif;
-  color: rgba(159, 201, 162, 0.57);
-  width: .6em;
-  height: .7em;
-  background: #fff;
-  display: block;
-  margin-right: -0.3em;
-  margin-top: -0.36em;
-}
-@media (max-width: 767px) {
-  .intro .intro-1:before {
-    border: none;
-    border-bottom: 1px solid #ebebeb;
-    right: 0;
-    top: auto;
-    bottom: -1.5em;
-    width: 100%;
-    height: auto;
-  }
-  .intro .intro-1:after {
-    content: "+";
-    position: absolute;
-    text-align: center;
-    top: auto;
-    bottom: -0.84em;
-    right: 50%;
-    font: bold 3em/0.62 'Roboto', sans-serif;
-    color: rgba(159, 201, 162, 0.57);
-    width: 1em;
-    height: .7em;
-    background: #fff;
-    display: block;
-    margin-right: -0.6em;
-    margin-top: 0;
-  }
+header h1 span {
+  color: #E2353C;
 }
 /* ==========================================================================
    Print styles.

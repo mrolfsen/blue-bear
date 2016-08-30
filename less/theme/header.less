@@ -3,82 +3,44 @@
    ========================================================================== */
 
 body {
-  font-family: @copyFont;
+  font-family: @sans-serif-font;
 }
 
 // the header
 // ===================================
 
 header {
-  background: @green-lightest;
-  text-align: center;
-  padding-bottom:1em;
-  text-transform: uppercase;
-  .logo {
-    padding:2em 2em 1em;
+  padding:20px;
 
-    img {
-      width: 20em;
-      max-width:100%;
-      height: auto;
+  .hero {
+    opacity: 0.92;
+    background-image: linear-gradient(-149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+    height:96vh;
+    position: relative;
+    min-height:41vw;
+  }
+
+  h1 {
+    margin:0;
+    padding:11vw 8vw;
+    font:900 11.2vw/0.8 @sans-serif-font;
+    letter-spacing: -0.02em;
+    position: absolute;
+    bottom:0;
+    text-transform: uppercase;
+  }
+
+  // let's try a gradient sometime soon...
+  h1 {
+    //background-image: url(https://jsbin-user-assets.s3.amazonaws.com/simevidas/141208142600-03-gender-neutral-gifts-horizontal-large-gallery.jpg);
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    //-webkit-background-clip: text;
+    //background-clip: text; /* in the future? */
+    color: @white;
+
+    span {
+      color:@red;
     }
   }
-  h1 {
-    font:bold 3.4em/1.4 @headlineFont;
-    margin:0;
-    color:@green;
-    letter-spacing: 0.20em;
-  }
-  p.intro {
-    font:normal 1.2em/1.2 @copyFont;
-    color:@gray;
-    letter-spacing: 0.40em;
-    margin:0;
-  }
 }
-@media (max-width: @screen-xs-max) {
-  header {
-    font-size:80%;
-  }
-}
-@media (max-width: 480px) {
-  header {
-    font-size:50%;
-  }
-}
-
-
-// the "chevron style":
-
-@arrow-height: 4em;
-
-.arrow-wrapper {
-  height: @arrow-height;
-  overflow-x: hidden;
-  position: relative;
-  margin-bottom: 1em;
-}
-.arrow-down {
-  width: 2000px;
-  position: absolute;
-  left: 50%;
-  margin-left: -1000px;
-  border-top: @arrow-height solid @green-lightest;
-  border-bottom: 0px solid transparent;
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
-}
-// reverse the arrow:
-
-.arrow-up {
-  width: 2000px;
-  position: absolute;
-  left: 50%;
-  margin-left: -1000px;
-  border-top: 0px solid transparent;
-  border-bottom: @arrow-height solid @green-lightest;
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
-}
-
-
