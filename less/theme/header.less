@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-family: @copyFont;
+}
+
+// the header
+// ===================================
+
+header {
+  background: @green-lightest;
+  text-align: center;
+  padding-bottom:1em;
+  text-transform: uppercase;
+  .logo {
+    padding:2em 2em 1em;
+
+    img {
+      width: 20em;
+      max-width:100%;
+      height: auto;
+    }
+  }
+  h1 {
+    font:bold 3.4em/1.4 @headlineFont;
+    margin:0;
+    color:@green;
+    letter-spacing: 0.20em;
+  }
+  p.intro {
+    font:normal 1.2em/1.2 @copyFont;
+    color:@gray;
+    letter-spacing: 0.40em;
+    margin:0;
+  }
+}
+@media (max-width: @screen-xs-max) {
+  header {
+    font-size:80%;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    font-size:50%;
+  }
+}
+
+
+// the "chevron style":
+
+@arrow-height: 4em;
+
+.arrow-wrapper {
+  height: @arrow-height;
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 1em;
+}
+.arrow-down {
+  width: 2000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1000px;
+  border-top: @arrow-height solid @green-lightest;
+  border-bottom: 0px solid transparent;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+}
+// reverse the arrow:
+
+.arrow-up {
+  width: 2000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1000px;
+  border-top: 0px solid transparent;
+  border-bottom: @arrow-height solid @green-lightest;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+}
+
+
