@@ -1246,15 +1246,27 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 header {
-  padding: 20px;
+  background: url(../img/baer.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  border: 20px solid #fff;
+  min-height: 54vw;
 }
 header .hero {
   opacity: 0.92;
-  background-image: -webkit-linear-gradient(239deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
-  background-image: linear-gradient(-149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
-  height: 96vh;
+  background-image: -webkit-linear-gradient(301deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+  background-image: linear-gradient(149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
   position: relative;
-  min-height: 41vw;
+  height: 100%;
+}
+header .logo {
+  padding: 1em;
+}
+@media (max-width: 767px) {
+  header .logo img {
+    width: 60px;
+    height: auto;
+  }
 }
 header h1 {
   margin: 0;
