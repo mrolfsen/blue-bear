@@ -11,55 +11,57 @@ body {
 
 header {
   background: url(../img/baer.jpg) no-repeat center center;
-  background-size:cover;
-  height:100vh;
-  border:20px solid #fff;
-  min-height:54vw;
+  background-size: cover;
+  height: 100vh;
+  border: 15px solid #fff;
+  min-height: 54vw;
 
-  @media (max-width:@screen-xs-max) {
-    border:10px solid #fff;
-
-  .hero {
-    opacity: 0.92;
-    background-image: linear-gradient(149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
-    position: relative;
-    height:100%;
+  @media (max-width: @screen-xs-max) {
+    border: 10px solid #fff;
   }
 
-  .logo {
-    padding:2em;
+    .hero {
+      opacity: 0.92;
+      background-image: linear-gradient(149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+      position: relative;
+      height: 100%;
+    }
 
-    @media (max-width:@screen-xs-max) {
-      padding:.5em;
+    .logo {
+      padding: 2em;
+      color:@white;
 
-      img {
-        width:60px;
-        height:auto;
+      @media (max-width: @screen-xs-max) {
+        padding: .5em;
+
+        img {
+          width: 60px;
+          height: auto;
+        }
+      }
+    }
+
+    h1 {
+      margin: 0;
+      padding: 11vw 8vw;
+      font: 900 11.2vw/0.8 @sans-serif-font;
+      letter-spacing: -0.02em;
+      position: absolute;
+      bottom: 0;
+      text-transform: uppercase;
+    }
+
+    // let's try a gradient sometime soon...
+    h1 {
+      //background-image: url(https://jsbin-user-assets.s3.amazonaws.com/simevidas/141208142600-03-gender-neutral-gifts-horizontal-large-gallery.jpg);
+      //background-repeat: no-repeat;
+      //background-size: cover;
+      //-webkit-background-clip: text;
+      //background-clip: text; /* in the future? */
+      color: @white;
+
+      span {
+        color: @red;
       }
     }
   }
-
-  h1 {
-    margin:0;
-    padding:11vw 8vw;
-    font:900 11.2vw/0.8 @sans-serif-font;
-    letter-spacing: -0.02em;
-    position: absolute;
-    bottom:0;
-    text-transform: uppercase;
-  }
-
-  // let's try a gradient sometime soon...
-  h1 {
-    //background-image: url(https://jsbin-user-assets.s3.amazonaws.com/simevidas/141208142600-03-gender-neutral-gifts-horizontal-large-gallery.jpg);
-    //background-repeat: no-repeat;
-    //background-size: cover;
-    //-webkit-background-clip: text;
-    //background-clip: text; /* in the future? */
-    color: @white;
-
-    span {
-      color:@red;
-    }
-  }
-}

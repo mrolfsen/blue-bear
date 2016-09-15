@@ -7,7 +7,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:400,400i,600,700,900';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:300,400,400i,600,700,900';
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1249,8 +1249,13 @@ header {
   background: url(../img/baer.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
-  border: 20px solid #fff;
+  border: 15px solid #fff;
   min-height: 54vw;
+}
+@media (max-width: 767px) {
+  header {
+    border: 10px solid #fff;
+  }
 }
 header .hero {
   opacity: 0.92;
@@ -1260,9 +1265,13 @@ header .hero {
   height: 100%;
 }
 header .logo {
-  padding: 1em;
+  padding: 2em;
+  color: #fff;
 }
 @media (max-width: 767px) {
+  header .logo {
+    padding: .5em;
+  }
   header .logo img {
     width: 60px;
     height: auto;
@@ -1282,6 +1291,33 @@ header h1 {
 }
 header h1 span {
   color: #E2353C;
+}
+footer {
+  color: #E2353C;
+}
+footer p {
+  font: 300 1em/1.3 'Source Sans Pro', sans-serif;
+}
+footer .logo {
+  text-align: center;
+  padding: 1em 0 2em;
+  border-bottom: 4px solid #E2353C;
+}
+footer .right-aligned {
+  text-align: right;
+}
+footer nav ul {
+  list-style: none;
+  margin-bottom: 2.5em;
+}
+footer nav ul li {
+  display: inline-block;
+  padding-left: 1em;
+}
+footer nav ul li a {
+  color: #E2353C;
+  font-weight: 600;
+  text-decoration: none;
 }
 /* ==========================================================================
    Print styles.
