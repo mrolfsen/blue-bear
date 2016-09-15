@@ -1272,7 +1272,7 @@ header .logo {
   header .logo {
     padding: .5em;
   }
-  header .logo img {
+  header .logo svg {
     width: 60px;
     height: auto;
   }
