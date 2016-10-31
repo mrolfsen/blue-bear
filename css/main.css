@@ -1266,15 +1266,16 @@ header .hero {
 }
 header .logo {
   padding: 2em;
+  margin: 0;
   color: #fff;
 }
 @media (max-width: 767px) {
   header .logo {
-    padding: .5em;
+    padding: 1em;
   }
   header .logo svg {
-    width: 60px;
-    height: auto;
+    width: 84px;
+    height: 100px;
   }
 }
 header h1 {
@@ -1291,6 +1292,9 @@ header h1 {
 }
 header h1 span {
   color: #E2353C;
+}
+.logo.white svg path {
+  fill: #fff;
 }
 footer {
   color: #E2353C;
