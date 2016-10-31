@@ -1257,6 +1257,11 @@ html {
     border: 10px solid #fff;
   }
 }
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 body {
   font-size: 16px;
   text-rendering: optimizeLegibility;
@@ -1313,9 +1318,8 @@ header {
   }
 }
 header .hero {
-  opacity: 0.92;
-  background-image: -webkit-linear-gradient(301deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
-  background-image: linear-gradient(149deg, #1E1964 2%, #8D294D 68%, #E23535 100%);
+  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
+  background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   position: relative;
   height: 100%;
 }
@@ -1434,6 +1438,75 @@ footer nav ul li a {
 .blue-section a.btn {
   color: #E2353C;
   border-color: #E2353C;
+}
+.team-mates figure {
+  margin: 1em 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.team-mates figure .image-container {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.team-mates figure figcaption {
+  background: #fff;
+  padding: 2em;
+}
+.team-mates figure figcaption h4 {
+  font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  margin: 0;
+  paddimg: 0;
+}
+.team-mates figure figcaption span.title {
+  font: italic 500 1.2em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  display: block;
+}
+.team-mates figure figcaption span.function {
+  font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  display: block;
+}
+.team-mates figure figcaption p {
+  font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+}
+@media (min-width: 768px) {
+  .team-mates figure {
+    position: relative;
+  }
+  .team-mates figure:before,
+  .team-mates figure:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  .team-mates figure:after {
+    clear: both;
+  }
+  .team-mates figure .image-container {
+    width: 56%;
+    margin: 0;
+  }
+  .team-mates figure figcaption {
+    position: absolute;
+    top: 2em;
+    width: 42%;
+    margin-left: 50%;
+  }
+  .team-mates figure.align-right .image-container {
+    float: right;
+  }
+  .team-mates figure.align-right figcaption {
+    margin-left: 8%;
+    text-align: right;
+  }
+}
+.team-mates figcaption.blue {
+  background: #1E1964;
 }
 /* ==========================================================================
    Print styles.

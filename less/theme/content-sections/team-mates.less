@@ -1,0 +1,80 @@
+// the team-mates
+
+
+.team-mates {
+
+  figure {
+    margin:1em 0;
+    padding:0;
+    width:100%;
+    position: relative;
+
+    .image-container {
+      margin-left:-15px;
+      margin-right:-15px;
+    }
+
+
+    figcaption{
+      background:@white;
+      padding:2em;
+
+      h4 {
+        font:700 1.8em/1.4 @sans-serif-font;
+        color:@red;
+        margin:0;
+        paddimg:0;
+      }
+      span.title {
+        font:italic 500 1.2em/1.4 @sans-serif-font;
+        color:@red;
+        display:block;
+      }
+
+      span.function {
+        font:600 1.2em/1.4 @sans-serif-font;
+        color:@red;
+        display:block;
+      }
+
+      p {
+        font:500 1.1em/1.4 @sans-serif-font;
+        color:@red;
+      }
+    }
+  }
+  @media (min-width:@screen-sm-min) {
+    figure {
+      position: relative;
+      .clearfix;
+
+      .image-container {
+        width: 56%;
+        margin: 0;
+
+      }
+      figcaption {
+        position: absolute;
+        top:2em;
+        width:42%;
+        margin-left:50%;
+      }
+
+      &.align-right {
+        .image-container {
+          float:right;
+        }
+        figcaption {
+          margin-left:8%;
+          text-align:right;
+        }
+      }
+    }
+  }
+
+  figcaption.blue {
+    background:@blue;
+  }
+
+}
+
