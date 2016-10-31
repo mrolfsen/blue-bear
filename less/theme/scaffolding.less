@@ -7,8 +7,15 @@
 .padded-container {
 
   border: 15px solid #fff;
+  border-top:0;
 
   @media (max-width: @screen-xs-max) {
     border: 10px solid #fff;
   }
 }
+
+.content > section {
+  .padded-container;
+}
+
+

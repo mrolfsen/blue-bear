@@ -1241,11 +1241,57 @@ html {
 /* colors */
 .padded-container {
   border: 15px solid #fff;
+  border-top: 0;
 }
 @media (max-width: 767px) {
   .padded-container {
     border: 10px solid #fff;
   }
+}
+.content > section {
+  border: 15px solid #fff;
+  border-top: 0;
+}
+@media (max-width: 767px) {
+  .content > section {
+    border: 10px solid #fff;
+  }
+}
+body {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  font: 700 3.6em/1.2 'Playfair Display', serif;
+  color: #1E1964;
+}
+p {
+  font: 1.8em/1.4 'Source Sans Pro', sans-serif;
+}
+small {
+  font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
+  margin: 2em 0 2em;
+  display: block;
+}
+blockquote {
+  border-left: 4px solid #E2353C;
+  padding-left: 1.5em;
+  margin: 0;
+}
+blockquote p {
+  font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+}
+a.btn {
+  font: 700 1.3em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  padding: .6em 3.2em;
+  border: 2px solid #E2353C;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1em 0 2em;
 }
 /* ==========================================================================
    Author's custom styles
@@ -1258,6 +1304,7 @@ header {
   background-size: cover;
   height: 100vh;
   min-height: 54vw;
+  border-top: 0;
   border: 15px solid #fff;
 }
 @media (max-width: 767px) {
@@ -1306,23 +1353,24 @@ header h1 span {
 }
 footer {
   color: #E2353C;
-  border: 15px solid #fff;
-}
-@media (max-width: 767px) {
-  footer {
-    border: 10px solid #fff;
-  }
+  padding: 0 .5em 0 .5em;
 }
 footer p {
-  font: 300 1em/1.3 'Source Sans Pro', sans-serif;
+  font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
+  margin-top: .5em;
 }
 footer .logo {
-  text-align: center;
-  padding: 1em 0 2em;
-  border-bottom: 4px solid #E2353C;
+  padding: 0.5em 0 1.5em;
 }
 footer .right-aligned {
   text-align: right;
+}
+footer .social-buttons {
+  margin-bottom: 2em;
+}
+footer .social-buttons a {
+  color: #E2353C;
+  text-decoration: none;
 }
 footer nav ul {
   list-style: none;
@@ -1334,8 +1382,58 @@ footer nav ul li {
 }
 footer nav ul li a {
   color: #E2353C;
-  font-weight: 600;
+  font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   text-decoration: none;
+}
+.red-section {
+  background: #E2353C;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+.red-section p {
+  color: #fff;
+}
+.red-section blockquote {
+  border-color: #1E1964;
+}
+.red-section blockquote p {
+  color: #1E1964;
+}
+.red-section small {
+  color: #fff;
+}
+.red-section a.btn {
+  color: #1E1964;
+  border-color: #1E1964;
+}
+.gray-section {
+  background: #F5F5F5;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+.blue-section {
+  background: #1E1964;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+.blue-section h2 {
+  color: #E2353C;
+}
+.blue-section p {
+  color: #fff;
+}
+.blue-section blockquote {
+  border-color: #E2353C;
+}
+.blue-section blockquote p {
+  color: #E2353C;
+}
+.blue-section small {
+  color: #fff;
+}
+.blue-section a.btn {
+  color: #E2353C;
+  border-color: #E2353C;
 }
 /* ==========================================================================
    Print styles.
