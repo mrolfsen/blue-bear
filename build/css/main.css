@@ -1251,6 +1251,8 @@ html {
 .content > section {
   border: 15px solid #fff;
   border-top: 0;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
 @media (max-width: 767px) {
   .content > section {
@@ -1298,6 +1300,19 @@ a.btn {
   display: inline-block;
   margin: 1em 0 2em;
 }
+.content section ul {
+  margin: 1em 0 3em;
+  padding: 0;
+  list-style: none;
+}
+.content section ul li {
+  margin: 2px 0;
+  padding: 0.5em 0.8em;
+  display: inline-block;
+  background: #E2353C;
+  color: #1E1964;
+  font: 700 1.8em/1 'Source Sans Pro', sans-serif;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -1307,8 +1322,8 @@ body {
 header {
   background: url(../img/baer.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
-  min-height: 54vw;
+  height: 80vh;
+  min-height: 44vw;
   border-top: 0;
   border: 15px solid #fff;
 }
@@ -1340,7 +1355,7 @@ header .logo {
 header h1 {
   margin: 0;
   padding: 11vw 8vw;
-  font: 900 11.2vw/0.8 'Source Sans Pro', sans-serif;
+  font: 900 9em/0.9 'Source Sans Pro', sans-serif;
   letter-spacing: -0.02em;
   position: absolute;
   bottom: 0;
@@ -1350,6 +1365,54 @@ header h1 {
   color: #fff;
 }
 header h1 span {
+  color: #E2353C;
+}
+.home header {
+  background: url(../img/baer.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 54vw;
+  border-top: 0;
+  border: 15px solid #fff;
+}
+@media (max-width: 767px) {
+  .home header {
+    border: 10px solid #fff;
+  }
+}
+.home header .hero {
+  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
+  background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
+  position: relative;
+  height: 100%;
+}
+.home header .logo {
+  padding: 1.6em;
+  margin: 0;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .home header .logo {
+    padding: 1em;
+  }
+  .home header .logo svg {
+    width: 84px;
+    height: 100px;
+  }
+}
+.home header h1 {
+  margin: 0;
+  padding: 11vw 8vw;
+  font: 900 11.2vw/0.9 'Source Sans Pro', sans-serif;
+  letter-spacing: -0.02em;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+}
+.home header h1 {
+  color: #fff;
+}
+.home header h1 span {
   color: #E2353C;
 }
 .logo.white svg path {
@@ -1375,9 +1438,16 @@ nav.main-nav ul li a {
   color: #fff;
   padding: .5em .5em;
 }
+/* mark the navi */
+.staerken .main-nav .staerken a,
+.partner .main-nav .partner a,
+.referenzen .main-nav .referenzen a,
+.kontakt .main-nav .kontakt a {
+  color: #E2353C;
+}
 footer {
   color: #E2353C;
-  padding: 0 .5em 0 .5em;
+  padding: .5em .5em .5em .5em;
 }
 footer p {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
@@ -1409,36 +1479,8 @@ footer nav ul li a {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   text-decoration: none;
 }
-.red-section {
-  background: #E2353C;
-  padding-top: 1em;
-  padding-bottom: 3em;
-}
-.red-section p {
-  color: #fff;
-}
-.red-section blockquote {
-  border-color: #1E1964;
-}
-.red-section blockquote p {
-  color: #1E1964;
-}
-.red-section small {
-  color: #fff;
-}
-.red-section a.btn {
-  color: #1E1964;
-  border-color: #1E1964;
-}
-.gray-section {
-  background: #F5F5F5;
-  padding-top: 1em;
-  padding-bottom: 3em;
-}
 .blue-section {
   background: #1E1964;
-  padding-top: 1em;
-  padding-bottom: 3em;
 }
 .blue-section h2 {
   color: #E2353C;
@@ -1458,6 +1500,28 @@ footer nav ul li a {
 .blue-section a.btn {
   color: #E2353C;
   border-color: #E2353C;
+}
+.gray-section {
+  background: #F5F5F5;
+}
+.red-section {
+  background: #E2353C;
+}
+.red-section p {
+  color: #fff;
+}
+.red-section blockquote {
+  border-color: #1E1964;
+}
+.red-section blockquote p {
+  color: #1E1964;
+}
+.red-section small {
+  color: #fff;
+}
+.red-section a.btn {
+  color: #1E1964;
+  border-color: #1E1964;
 }
 .team-mates figure {
   margin: 1em 0;

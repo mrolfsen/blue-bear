@@ -6,14 +6,14 @@ body {
   font-family: @sans-serif-font;
 }
 
-// the header
+// the header (not home...)
 // ===================================
 
 header {
   background: url(../img/baer.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
-  min-height: 54vw;
+  height: 80vh;
+  min-height: 44vw;
 
   .padded-container;
   border: 15px solid #fff;
@@ -26,7 +26,7 @@ header {
   }
 
   .logo {
-    padding: 2em;
+    padding: 1.6em;
     margin:0;
     color:@white;
 
@@ -43,7 +43,7 @@ header {
   h1 {
     margin: 0;
     padding: 11vw 8vw;
-    font: 900 11.2vw/0.8 @sans-serif-font;
+    font: 900 9em/0.9 @sans-serif-font;
     letter-spacing: -0.02em;
     position: absolute;
     bottom: 0;
@@ -64,6 +64,66 @@ header {
     }
   }
 }
+
+// the header (home)
+// ===================================
+
+.home header {
+  background: url(../img/baer.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 54vw;
+
+  .padded-container;
+  border: 15px solid #fff;
+  // first element has top border, the rest ist "faux collapsing"
+
+  .hero {
+    background-image: linear-gradient(149deg, fade(#1E1964,92%) 2%, fade(#8D294D,92%) 68%, fade(#E23535,92%) 100%);
+    position: relative;
+    height: 100%;
+  }
+
+  .logo {
+    padding: 1.6em;
+    margin:0;
+    color:@white;
+
+    @media (max-width: @screen-xs-max) {
+      padding: 1em;
+
+      svg {
+        width: 84px;
+        height: 100px;
+      }
+    }
+  }
+
+  h1 {
+    margin: 0;
+    padding: 11vw 8vw;
+    font: 900 11.2vw/0.9 @sans-serif-font;
+    letter-spacing: -0.02em;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+  }
+
+  // let's try a gradient sometime soon...
+  h1 {
+    //background-image: url(https://jsbin-user-assets.s3.amazonaws.com/simevidas/141208142600-03-gender-neutral-gifts-horizontal-large-gallery.jpg);
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    //-webkit-background-clip: text;
+    //background-clip: text; /* in the future? */
+    color: @white;
+
+    span {
+      color: @red;
+    }
+  }
+}
+
 
 
 // recolor-the logo:
