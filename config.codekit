@@ -518,15 +518,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/less\/theme\/css\/team-mates.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/theme\/css\/team-mates.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/less\/theme\/footer.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,

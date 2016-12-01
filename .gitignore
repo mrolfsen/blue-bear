@@ -8,5 +8,6 @@
 .Trashes
 nbprojekt/
 *.codekit
+*.codekit3
 *.esproj/
 /godot/link_list_*.js
