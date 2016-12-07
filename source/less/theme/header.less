@@ -108,14 +108,7 @@ header {
     bottom: 0;
     text-transform: uppercase;
   }
-
-  // let's try a gradient sometime soon...
   h1 {
-    //background-image: url(https://jsbin-user-assets.s3.amazonaws.com/simevidas/141208142600-03-gender-neutral-gifts-horizontal-large-gallery.jpg);
-    //background-repeat: no-repeat;
-    //background-size: cover;
-    //-webkit-background-clip: text;
-    //background-clip: text; /* in the future? */
     color: @white;
 
     span {
@@ -130,4 +123,47 @@ header {
 
 .logo.white svg path {
   fill:#fff;
+}
+
+
+// header w/o the gradient and bg -image
+
+header.light-header {
+  background: transparent;
+  height: auto;
+  min-height: 0;
+
+  .padded-container;
+  border: 15px solid #fff;
+  // first element has top border, the rest ist "faux collapsing"
+
+  .hero {
+    background:transparent;
+    position: relative;
+    height: 100%;
+  }
+
+  .logo {
+    padding: 1.6em;
+    margin: 0;
+    color: @white;
+
+    @media (max-width: @screen-xs-max) {
+      padding: 1em;
+
+      svg {
+        width: 84px;
+        height: 100px;
+      }
+    }
+  }
+
+  h1 {
+    margin: 0;
+    font: 900 9em/0.9 @sans-serif-font;
+    letter-spacing: -0.02em;
+    position: relative;
+    text-transform: uppercase;
+    color:@blue;
+  }
 }
