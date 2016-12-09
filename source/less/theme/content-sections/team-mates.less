@@ -1,7 +1,8 @@
 // the team-mates
 
 
-.team-mates {
+.team-mates,
+.ref-intro {
 
   figure {
     margin:1em 0;
@@ -37,8 +38,15 @@
         display:block;
       }
 
-      p {
+      p, dt,dd  {
         font:500 1.1em/1.4 @sans-serif-font;
+        color:@red;
+      }
+      dt {
+        font-weight:700;
+      }
+      a {
+        font:italic 500 1.1em/1.4 @sans-serif-font;
         color:@red;
       }
     }
@@ -82,9 +90,29 @@
     h4,
     span.title,
     span.function,
-    p {
+    p,
+    dt,dd {
       color:@blue;
     }
   }
 }
 
+// special refernz
+
+@media (min-width:@screen-sm-min) {
+.ref-intro {
+
+  figure {
+    .image-container {
+      width: 75%;
+      margin: 0;
+    }
+    figcaption {
+      position: absolute;
+      top: -8em;
+      width: 42%;
+      margin-left: 60%;
+    }
+  }
+}
+}

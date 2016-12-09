@@ -1261,6 +1261,10 @@ html {
     border-top: 0;
   }
 }
+.content > section.lesser-gap {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -1275,6 +1279,22 @@ body {
 h2 {
   font: 700 3.6em/1.2 'Playfair Display', serif;
   color: #1E1964;
+}
+h4 {
+  font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  margin-bottom: -1em;
+}
+dl {
+  display: flex;
+  flex-direction: row;
+  margin: .2em 0 0.3em 0;
+}
+dt {
+  width: 25%;
+}
+dd {
+  width: 65%;
 }
 p {
   font: 1.8em/1.4 'Source Sans Pro', sans-serif;
@@ -1336,7 +1356,6 @@ header {
   }
 }
 header .hero {
-  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   position: relative;
   height: 100%;
@@ -1385,7 +1404,6 @@ header h1 span {
   }
 }
 .home header .hero {
-  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   position: relative;
   height: 100%;
@@ -1570,83 +1588,133 @@ footer nav ul li a {
   color: #1E1964;
   border-color: #1E1964;
 }
-.team-mates figure {
+.team-mates figure,
+.ref-intro figure {
   margin: 1em 0;
   padding: 0;
   width: 100%;
   position: relative;
 }
-.team-mates figure .image-container {
+.team-mates figure .image-container,
+.ref-intro figure .image-container {
   margin-left: -15px;
   margin-right: -15px;
 }
-.team-mates figure figcaption {
+.team-mates figure figcaption,
+.ref-intro figure figcaption {
   background: #fff;
   padding: 2em;
 }
-.team-mates figure figcaption h4 {
+.team-mates figure figcaption h4,
+.ref-intro figure figcaption h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
   margin: 0;
   paddimg: 0;
 }
-.team-mates figure figcaption span.title {
+.team-mates figure figcaption span.title,
+.ref-intro figure figcaption span.title {
   font: italic 500 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
   display: block;
 }
-.team-mates figure figcaption span.function {
+.team-mates figure figcaption span.function,
+.ref-intro figure figcaption span.function {
   font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
   display: block;
 }
-.team-mates figure figcaption p {
+.team-mates figure figcaption p,
+.ref-intro figure figcaption p,
+.team-mates figure figcaption dt,
+.ref-intro figure figcaption dt,
+.team-mates figure figcaption dd,
+.ref-intro figure figcaption dd {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
 }
+.team-mates figure figcaption dt,
+.ref-intro figure figcaption dt {
+  font-weight: 700;
+}
+.team-mates figure figcaption a,
+.ref-intro figure figcaption a {
+  font: italic 500 1.1em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+}
 @media (min-width: 768px) {
-  .team-mates figure {
+  .team-mates figure,
+  .ref-intro figure {
     position: relative;
   }
   .team-mates figure:before,
-  .team-mates figure:after {
+  .ref-intro figure:before,
+  .team-mates figure:after,
+  .ref-intro figure:after {
     content: " ";
     /* 1 */
     display: table;
     /* 2 */
   }
-  .team-mates figure:after {
+  .team-mates figure:after,
+  .ref-intro figure:after {
     clear: both;
   }
-  .team-mates figure .image-container {
+  .team-mates figure .image-container,
+  .ref-intro figure .image-container {
     width: 56%;
     margin: 0;
   }
-  .team-mates figure figcaption {
+  .team-mates figure figcaption,
+  .ref-intro figure figcaption {
     position: absolute;
     top: 2em;
     width: 42%;
     margin-left: 50%;
   }
-  .team-mates figure.align-right .image-container {
+  .team-mates figure.align-right .image-container,
+  .ref-intro figure.align-right .image-container {
     float: right;
   }
-  .team-mates figure.align-right figcaption {
+  .team-mates figure.align-right figcaption,
+  .ref-intro figure.align-right figcaption {
     margin-left: 8%;
     text-align: right;
   }
 }
-.team-mates figcaption.blue {
+.team-mates figcaption.blue,
+.ref-intro figcaption.blue {
   background: #1E1964;
 }
-.team-mates figcaption.red {
+.team-mates figcaption.red,
+.ref-intro figcaption.red {
   background: #E2353C;
 }
 .team-mates figcaption.red h4,
+.ref-intro figcaption.red h4,
 .team-mates figcaption.red span.title,
+.ref-intro figcaption.red span.title,
 .team-mates figcaption.red span.function,
-.team-mates figcaption.red p {
+.ref-intro figcaption.red span.function,
+.team-mates figcaption.red p,
+.ref-intro figcaption.red p,
+.team-mates figcaption.red dt,
+.ref-intro figcaption.red dt,
+.team-mates figcaption.red dd,
+.ref-intro figcaption.red dd {
   color: #1E1964;
+}
+@media (min-width: 768px) {
+  .ref-intro figure .image-container {
+    width: 75%;
+    margin: 0;
+  }
+  .ref-intro figure figcaption {
+    position: absolute;
+    top: -8em;
+    width: 42%;
+    margin-left: 60%;
+  }
 }
 .content > section.ref-images {
   padding: 0;
