@@ -24,6 +24,29 @@
     color:@red;
     border-color:@red
   }
+
+
+  // das Zitat auf der Startseite
+
+  &.weisheit {
+    text-align:center;
+    padding-bottom:7em;
+    h2 {
+      color:@white;
+      position: relative;
+
+      &:after {
+        content:"";
+        width:2em;
+        height:0;
+        position: absolute;
+        border-bottom:5px solid @red;
+        bottom: -1em;
+        left: 50%;
+        margin-left: -1em;
+      }
+    }
+  }
 }
 
 // GRAY background

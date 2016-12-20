@@ -1265,6 +1265,10 @@ html {
   padding-top: 1em;
   padding-bottom: 2em;
 }
+.content > section.no-gap {
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -1514,7 +1518,7 @@ nav.main-nav ul li a {
 }
 footer {
   color: #E2353C;
-  padding: .5em .5em .5em .5em;
+  padding: .5em 1.0em .5em 1.0em;
 }
 footer p {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
@@ -1568,6 +1572,24 @@ footer nav ul li a {
   color: #E2353C;
   border-color: #E2353C;
 }
+.blue-section.weisheit {
+  text-align: center;
+  padding-bottom: 7em;
+}
+.blue-section.weisheit h2 {
+  color: #fff;
+  position: relative;
+}
+.blue-section.weisheit h2:after {
+  content: "";
+  width: 2em;
+  height: 0;
+  position: absolute;
+  border-bottom: 5px solid #E2353C;
+  bottom: -1em;
+  left: 50%;
+  margin-left: -1em;
+}
 .gray-section {
   background: #F5F5F5;
 }
@@ -1592,7 +1614,7 @@ footer nav ul li a {
 }
 .team-mates figure,
 .ref-intro figure {
-  margin: 1em 0;
+  margin: 1em 0 3em;
   padding: 0;
   width: 100%;
   position: relative;
@@ -1728,6 +1750,87 @@ footer nav ul li a {
   .content > section.ref-images img {
     margin-bottom: 20px;
   }
+}
+.ref-overview {
+  margin-bottom: -1em;
+}
+.ref-overview a {
+  position: relative;
+  display: block;
+}
+.ref-overview figure {
+  margin: 0;
+  padding: 0;
+}
+.ref-overview figure figcaption {
+  position: absolute;
+  bottom: 1.2em;
+  left: 1.2em;
+}
+.ref-overview figure figcaption p {
+  font: 600 1.4em/1.4 'Source Sans Pro', sans-serif;
+}
+.ref-overview figure figcaption span {
+  display: inline-block;
+  background: #1E1964;
+  color: #E2353C;
+  margin-bottom: 2px;
+  padding: .2em .6em;
+}
+.ref-overview figure figcaption .icon-next {
+  width: 1.3em;
+  height: 1.3em;
+}
+.show-all {
+  background: #1E1964;
+  text-align: center;
+  padding: 1em;
+}
+.show-all .icon-overview {
+  height: 2em;
+  width: 2em;
+  color: #E2353C;
+}
+.cl-client-logos {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.cl-client-logos .cl-wrapper {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.cl-client-logos .cl-wrapper:before,
+.cl-client-logos .cl-wrapper:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cl-client-logos .cl-wrapper:after {
+  clear: both;
+}
+.cl-client-logos .cl-wrapper .cl-client-logo {
+  position: relative;
+  width: 20%;
+  overflow: hidden;
+  height: auto;
+  border: 5px solid #fff;
+  float: left;
+  color: #777;
+}
+@media (max-width: 991px) {
+  .cl-client-logos .cl-wrapper .cl-client-logo {
+    width: 33.3333333%;
+  }
+}
+@media (max-width: 767px) {
+  .cl-client-logos .cl-wrapper .cl-client-logo {
+    width: 50% !important;
+  }
+}
+.cl-client-logos .cl-wrapper .svg-icon {
+  width: 100%;
+  margin-bottom: 0px;
 }
 /* ==========================================================================
    Print styles.

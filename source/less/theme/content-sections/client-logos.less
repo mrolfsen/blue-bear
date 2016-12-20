@@ -1,0 +1,33 @@
+.cl-client-logos {
+  margin:0 auto;
+  max-width:1440px;
+
+  .cl-wrapper {
+    margin-left: -5px;
+    margin-right: -5px;
+    .clearfix;
+
+    .cl-client-logo {
+      position: relative;
+      width: 20%;
+      overflow: hidden;
+      height: auto;
+      border: 5px solid #fff;
+      float: left;
+      color:#777;
+
+
+      @media (max-width: @screen-sm-max) {
+        width: 33.3333333%;
+      }
+      @media (max-width: @screen-xs-max) {
+        width: 50% !important;
+      }
+    }
+
+    .svg-icon {
+      width: 100%;
+      margin-bottom: 0px;
+    }
+  }
+}
