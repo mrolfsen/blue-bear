@@ -1,0 +1,39 @@
+.content > section.team-kontakt {
+  font-size:90%;
+  padding-top:5em;
+  padding-bottom:5em;
+
+  figure.adress {
+    z-index:1;
+    position: relative;
+
+    &:after {
+      content: "";
+      //height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom:20px;
+      background: @red;
+    }
+    figcaption {
+      z-index:2;
+
+      p span {
+        color: @blue;
+        background:transparent;
+      }
+    }
+  }
+}
+
+.content > section.map {
+  padding-bottom:0;
+  iframe {
+    width:100%;
+    min-height:300px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+}
