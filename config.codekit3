@@ -21,6 +21,12 @@
 		"oAP": "\/build\/.idea\/blue-bear.iml",
 		"oF": 0
 		},
+	"\/.idea\/deployment.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/deployment.xml",
+		"oF": 0
+		},
 	"\/.idea\/encodings.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -37,6 +43,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.idea\/vcs.xml",
+		"oF": 0
+		},
+	"\/.idea\/webServers.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 0
 		},
 	"\/.idea\/workspace.xml": {
