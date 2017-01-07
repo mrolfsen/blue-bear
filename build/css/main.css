@@ -1586,6 +1586,10 @@ footer nav ul li a {
   color: #E2353C;
   border-color: #E2353C;
 }
+.blue-section a.btn:hover {
+  color: #fff;
+  background: #E2353C;
+}
 .blue-section.weisheit {
   text-align: center;
   padding-bottom: 7em;
@@ -1625,6 +1629,10 @@ footer nav ul li a {
 .red-section a.btn {
   color: #1E1964;
   border-color: #1E1964;
+}
+.red-section a.btn:hover {
+  color: #fff;
+  background: #1E1964;
 }
 .team-mates figure,
 .ref-intro figure {

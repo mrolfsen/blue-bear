@@ -569,19 +569,19 @@
 		},
 	"\/source\/js\/vendor\/jquery-1.12.4.min.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/vendor\/min\/jquery-1.12.4.min-min.js",
-		"oF": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/build\/js\/vendor\/jquery-1.12.4.min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/js\/vendor\/modernizr-2.8.3.min.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
-		"oF": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/build\/js\/vendor\/modernizr-2.8.3.min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
