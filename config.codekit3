@@ -227,9 +227,9 @@
 		},
 	"\/LICENSE.txt": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/LICENSE.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/projectFilesBackup\/.idea\/workspace.xml": {
 		"ft": 8192,
@@ -245,9 +245,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
