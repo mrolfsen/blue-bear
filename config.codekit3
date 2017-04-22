@@ -7,7 +7,7 @@
 		"uuidString": "100C10FF-6142-423D-9737-7EE768750804"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -17,45 +17,45 @@
 		},
 	"\/.idea\/blue-bear.iml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/blue-bear.iml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/deployment.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/deployment.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/encodings.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/encodings.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/modules.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/modules.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/vcs.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/webServers.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/webServers.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.idea\/workspace.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
@@ -83,9 +83,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/css.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -101,9 +101,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/extend.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -119,9 +119,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/faq.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -137,9 +137,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/html.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -155,9 +155,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/js.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -173,9 +173,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/misc.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -191,9 +191,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/TOC.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -209,9 +209,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/doc\/usage.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -233,9 +233,9 @@
 		},
 	"\/projectFilesBackup\/.idea\/workspace.xml": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/projectFilesBackup\/.idea\/workspace.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -273,23 +273,32 @@
 		"oA": 0,
 		"oAP": "\/build\/assets\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/source\/assets\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 637,
+		"iS": 391,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/source\/assets\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1196,
+		"iS": 707,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/source\/assets\/favicon.ico": {
 		"ft": 8192,
@@ -303,7 +312,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/baer-jagd.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/baer.jpg": {
 		"ft": 16384,
@@ -311,7 +322,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/baer.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/icon-twitter.svg": {
 		"ft": 2097152,
@@ -349,7 +362,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/partner.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade-volle-breite.jpg": {
 		"ft": 16384,
@@ -357,7 +372,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade-volle-breite.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Impressum.jpg": {
 		"ft": 16384,
@@ -365,7 +382,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Impressum.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Introbild.jpg": {
 		"ft": 16384,
@@ -373,7 +392,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Introbild.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Katalog_Produkte.jpg": {
 		"ft": 16384,
@@ -381,7 +402,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Katalog_Produkte.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_klein_links_oben.jpg": {
 		"ft": 16384,
@@ -389,7 +412,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_klein_links_oben.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_klein_links_unten.jpg": {
 		"ft": 16384,
@@ -397,7 +422,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_klein_links_unten.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_klein_rechts_oben.jpg": {
 		"ft": 16384,
@@ -405,7 +432,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_klein_rechts_oben.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_klein_rechts_unten.jpg": {
 		"ft": 16384,
@@ -413,7 +442,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_klein_rechts_unten.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
@@ -421,7 +452,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Pad.jpg": {
 		"ft": 16384,
@@ -429,7 +462,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Pad.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Start.jpg": {
 		"ft": 16384,
@@ -437,7 +472,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Start.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_argos.jpg": {
 		"ft": 16384,
@@ -445,7 +482,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_argos.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas-big.jpg": {
 		"ft": 16384,
@@ -453,7 +492,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas-big.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas.jpg": {
 		"ft": 16384,
@@ -461,7 +502,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_dlr.jpg": {
 		"ft": 16384,
@@ -469,7 +512,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_dlr.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_epag.jpg": {
 		"ft": 16384,
@@ -477,7 +522,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_epag.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_fairtrade.jpg": {
 		"ft": 16384,
@@ -485,7 +532,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_fairtrade.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_true-fruits.jpg": {
 		"ft": 16384,
@@ -493,7 +542,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_true-fruits.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/img\/yvonne.jpg": {
 		"ft": 16384,
@@ -501,7 +552,9 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/yvonne.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/includes\/_client-logos.kit": {
 		"ft": 2048,
@@ -942,7 +995,8 @@
 	"creationDate": 502411330,
 	"displayValue": "blue-bear",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/source\/assets\/apple-touch-icon.png"
+	"iconImageName": "\/source\/assets\/apple-touch-icon.png",
+	"lastBuiltDate": 514563522
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1590,6 +1644,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1608,6 +1666,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1810,6 +1872,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1887,6 +1953,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2086,6 +2156,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2130,9 +2204,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2227,6 +2309,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2673,7 +2759,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2696,14 +2783,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2766,7 +2845,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
