@@ -1,4 +1,5 @@
-# cornerstone-boilerplate
-a starting point for small to intermediate web projects
+# Der
+# blaue
+# Bär
 
-this is still a work in progress...
+webproject in progress for a new agency located in Bonn, Germany.
