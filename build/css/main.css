@@ -1275,10 +1275,15 @@ img {
   height: auto;
 }
 body {
-  font-size: 16px;
+  font-size: 12px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
 }
 h2 {
   font: 700 3.6em/1.2 'Playfair Display', serif;
@@ -1362,13 +1367,19 @@ header {
   background-size: cover;
   height: 80vh;
   min-height: 44vw;
-  border-top: 0;
   border: 15px solid #fff;
+  border-top: 0;
+  border-top: 15px;
 }
 @media (max-width: 767px) {
   header {
     border: 10px solid #fff;
     border-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    border-top: 10px solid #fff;
   }
 }
 header .hero {
@@ -1421,6 +1432,11 @@ header h1 span {
     border-top: 0;
   }
 }
+@media (max-width: 767px) {
+  .home header {
+    border-top: 10px solid #fff;
+  }
+}
 .home header .hero {
   background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
@@ -1470,6 +1486,11 @@ header.light-header {
   header.light-header {
     border: 10px solid #fff;
     border-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  header.light-header {
+    border-top: 10px solid #fff;
   }
 }
 header.light-header .hero {

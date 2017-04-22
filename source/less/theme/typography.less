@@ -1,10 +1,14 @@
 // typographie
 
 body {
-  font-size:16px;
+  font-size:12px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media (min-width:@screen-md-min) {
+    font-size:16px;
+  }
 }
 
 h1 {}

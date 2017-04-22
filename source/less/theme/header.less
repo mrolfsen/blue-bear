@@ -16,8 +16,12 @@ header {
   min-height: 44vw;
 
   .padded-container;
-  border: 15px solid #fff;
+  border-top: 15px;
   // first element has top border, the rest ist "faux collapsing"
+
+  @media (max-width:@screen-xs-max) {
+    border-top:10px solid #fff;
+  }
 
   .hero {
     background-image: linear-gradient(149deg, fade(#1E1964,92%) 2%, fade(#8D294D,92%) 68%, fade(#E23535,92%) 100%);
@@ -79,6 +83,10 @@ header {
   border: 15px solid #fff;
   // first element has top border, the rest ist "faux collapsing"
 
+  @media (max-width:@screen-xs-max) {
+    border-top:10px solid #fff;
+  }
+
   .hero {
     background-image: linear-gradient(149deg, fade(#1E1964,92%) 2%, fade(#8D294D,92%) 68%, fade(#E23535,92%) 100%);
     position: relative;
@@ -137,6 +145,10 @@ header.light-header {
   .padded-container;
   border: 15px solid #fff;
   // first element has top border, the rest ist "faux collapsing"
+
+  @media (max-width:@screen-xs-max) {
+    border-top:10px solid #fff;
+  }
 
   .hero {
     background:transparent;
