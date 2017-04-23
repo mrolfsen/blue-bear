@@ -1369,7 +1369,7 @@ header {
   min-height: 44vw;
   border: 15px solid #fff;
   border-top: 0;
-  border-top: 15px;
+  border-top: 15px solid #fff;
 }
 @media (max-width: 767px) {
   header {
