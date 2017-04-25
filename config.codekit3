@@ -15,6 +15,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/.idea\/.name": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/.name",
+		"oF": 0
+		},
 	"\/.idea\/blue-bear.iml": {
 		"ft": 8192,
 		"oA": 1,
@@ -43,12 +49,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
-		"oF": 1
-		},
-	"\/.idea\/webServers.xml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
@@ -261,9 +261,15 @@
 		"oAP": "\/build\/404.html",
 		"oF": 0
 		},
+	"\/source\/agb.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/agb.html",
+		"oF": 0
+		},
 	"\/source\/assets\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 20863,
+		"iS": 5894,
 		"oA": 0,
 		"oAP": "\/build\/assets\/apple-touch-icon.png",
 		"oF": 0,
@@ -274,7 +280,7 @@
 		},
 	"\/source\/assets\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 391,
+		"iS": 637,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-16x16.png",
 		"oF": 0,
@@ -285,7 +291,7 @@
 		},
 	"\/source\/assets\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 707,
+		"iS": 1196,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-32x32.png",
 		"oF": 0,
@@ -302,7 +308,7 @@
 		},
 	"\/source\/img\/baer-jagd.jpg": {
 		"ft": 16384,
-		"iS": 701652,
+		"iS": 43411,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer-jagd.jpg",
 		"oF": 0,
@@ -352,7 +358,7 @@
 		},
 	"\/source\/img\/partner.jpg": {
 		"ft": 16384,
-		"iS": 619053,
+		"iS": 1437073,
 		"oA": 0,
 		"oAP": "\/build\/img\/partner.jpg",
 		"oF": 0,
@@ -372,7 +378,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Impressum.jpg": {
 		"ft": 16384,
-		"iS": 447656,
+		"iS": 864707,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Impressum.jpg",
 		"oF": 0,
@@ -382,7 +388,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Introbild.jpg": {
 		"ft": 16384,
-		"iS": 235709,
+		"iS": 503250,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Introbild.jpg",
 		"oF": 0,
@@ -392,7 +398,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/fairtrade_Katalog_Produkte.jpg": {
 		"ft": 16384,
-		"iS": 449862,
+		"iS": 877696,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/fairtrade_Katalog_Produkte.jpg",
 		"oF": 0,
@@ -442,7 +448,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 230875,
+		"iS": 459814,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
@@ -452,7 +458,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Pad.jpg": {
 		"ft": 16384,
-		"iS": 116498,
+		"iS": 167852,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Pad.jpg",
 		"oF": 0,
@@ -462,7 +468,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Start.jpg": {
 		"ft": 16384,
-		"iS": 256261,
+		"iS": 420612,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Start.jpg",
 		"oF": 0,
@@ -472,7 +478,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_argos.jpg": {
 		"ft": 16384,
-		"iS": 136344,
+		"iS": 283613,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_argos.jpg",
 		"oF": 0,
@@ -492,7 +498,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas.jpg": {
 		"ft": 16384,
-		"iS": 122785,
+		"iS": 253501,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas.jpg",
 		"oF": 0,
@@ -502,7 +508,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_dlr.jpg": {
 		"ft": 16384,
-		"iS": 274021,
+		"iS": 525758,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_dlr.jpg",
 		"oF": 0,
@@ -512,7 +518,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_epag.jpg": {
 		"ft": 16384,
-		"iS": 80321,
+		"iS": 214289,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_epag.jpg",
 		"oF": 0,
@@ -522,7 +528,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_fairtrade.jpg": {
 		"ft": 16384,
-		"iS": 198726,
+		"iS": 457178,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_fairtrade.jpg",
 		"oF": 0,
@@ -532,7 +538,7 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_true-fruits.jpg": {
 		"ft": 16384,
-		"iS": 91419,
+		"iS": 175528,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_true-fruits.jpg",
 		"oF": 0,
@@ -549,6 +555,12 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/source\/impressum.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/impressum.html",
+		"oF": 0
 		},
 	"\/source\/includes\/_client-logos.kit": {
 		"ft": 2048,
