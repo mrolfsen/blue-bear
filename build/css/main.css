@@ -1289,6 +1289,11 @@ h2 {
   font: 700 3.6em/1.2 'Playfair Display', serif;
   color: #1E1964;
 }
+@media (max-width: 767px) {
+  h2 {
+    font: 700 3em/1.2 'Playfair Display', serif;
+  }
+}
 h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
@@ -1313,6 +1318,11 @@ dd {
 p {
   font: 1.8em/1.4 'Source Sans Pro', sans-serif;
 }
+@media (max-width: 767px) {
+  p {
+    font: 1.4em/1.4 'Source Sans Pro', sans-serif;
+  }
+}
 small {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   margin: 2em 0 2em;
@@ -1336,7 +1346,6 @@ a.btn {
   display: inline-block;
   margin: 1em 0 2em;
   background: transparent;
-  -webkit-transition: all .2s;
   transition: all .2s;
 }
 a.btn:hover {
@@ -1383,7 +1392,6 @@ header {
   }
 }
 header .hero {
-  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   position: relative;
   height: 100%;
@@ -1412,6 +1420,11 @@ header h1 {
   bottom: 0;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  header h1 {
+    font: 900 5em/0.9 'Source Sans Pro', sans-serif;
+  }
+}
 header h1 {
   color: #fff;
 }
@@ -1438,7 +1451,6 @@ header h1 span {
   }
 }
 .home header .hero {
-  background-image: -webkit-linear-gradient(301deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
   position: relative;
   height: 100%;
@@ -1554,6 +1566,11 @@ nav.main-nav ul li a {
 footer {
   color: #E2353C;
   padding: .5em 1.0em .5em 1.0em;
+}
+@media (max-width: 767px) {
+  footer {
+    padding: .5em 0;
+  }
 }
 footer p {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;

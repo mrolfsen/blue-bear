@@ -16,6 +16,10 @@ h1 {}
 h2 {
   font:700 3.6em/1.2 @serif-font;
   color:@blue;
+
+  @media (max-width:@screen-xs-max) {
+    font:700 3.0em/1.2 @serif-font;
+  }
 }
 
 h3 {}
@@ -41,6 +45,10 @@ dd {
 
 p {
   font:1.8em/1.4 @sans-serif-font;
+
+  @media (max-width: @screen-xs-max) {
+    font:1.4em/1.4 @sans-serif-font;
+  }
 }
 
 small {
