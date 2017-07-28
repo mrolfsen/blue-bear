@@ -203,12 +203,8 @@ This may go into a sepearate file for easier maintenance
                 </div>
             </div>
         </section>
-        <style>
-            #googleMap {
-                height: 400px;
-                width: 100%;
-            }
-        </style>
+
+
         <section class="map" id="googleMap">
             <script>
                 function initMap() {
@@ -217,6 +213,7 @@ This may go into a sepearate file for easier maintenance
                     var blauerbaer = {lat: 50.7286071, lng: 7.0960195};
                     var map = new google.maps.Map(document.getElementById('googleMap'), {
                         zoom: 15,
+                        scrollwheel: false,
                         center: blauerbaer
                     });
                     var marker = new google.maps.Marker({
@@ -321,4 +318,3 @@ FOOTER =========================
 
 </body>
 </html>
-
