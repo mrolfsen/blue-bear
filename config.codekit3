@@ -617,6 +617,192 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/ref_argos\/Argos_02.jpg": {
+		"ft": 16384,
+		"iS": 334894,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_4er_Compo_1.jpg": {
+		"ft": 16384,
+		"iS": 352841,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_4er_Compo_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_4er_Compo_2.jpg": {
+		"ft": 16384,
+		"iS": 193783,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_4er_Compo_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_group.jpg": {
+		"ft": 16384,
+		"iS": 251230,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_group.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_Logo.jpg": {
+		"ft": 16384,
+		"iS": 177240,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_PP.jpg": {
+		"ft": 16384,
+		"iS": 132682,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_PP.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_Print_01.jpg": {
+		"ft": 16384,
+		"iS": 253423,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_Print_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_argos\/Argos_Resp_01.jpg": {
+		"ft": 16384,
+		"iS": 279960,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_argos\/Argos_Resp_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Bausteine_grey.gif": {
+		"ft": 4194304,
+		"iS": 91759,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Bausteine_grey.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Logo.gif": {
+		"ft": 4194304,
+		"iS": 171036,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Logo.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Logo_komplett.jpg": {
+		"ft": 16384,
+		"iS": 37893,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Logo_komplett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Print1.jpg": {
+		"ft": 16384,
+		"iS": 281043,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Print2.jpg": {
+		"ft": 16384,
+		"iS": 301203,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Print3.jpg": {
+		"ft": 16384,
+		"iS": 136853,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Print4.jpg": {
+		"ft": 16384,
+		"iS": 213791,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Print5.jpg": {
+		"ft": 16384,
+		"iS": 128282,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Resp_01.jpg": {
+		"ft": 16384,
+		"iS": 225309,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Resp_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/CBAL_Web.jpg": {
+		"ft": 16384,
+		"iS": 243975,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/CBAL_Web.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/ref_cbal\/DSCF2243_Ret.jpg": {
+		"ft": 16384,
+		"iS": 164654,
+		"oA": 0,
+		"oAP": "\/build\/img\/ref_cbal\/DSCF2243_Ret.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/source\/img\/ref_deco-glas\/decoglas_okt15_04Lres.jpg": {
 		"ft": 16384,
 		"iS": 278102,
@@ -1613,6 +1799,18 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/partner.html",
+		"oF": 0
+		},
+	"\/source\/ref_argos.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/ref_argos.html",
+		"oF": 0
+		},
+	"\/source\/ref_cbal.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/ref_cbal.html",
 		"oF": 0
 		},
 	"\/source\/ref_deco-glas.kit": {
