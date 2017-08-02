@@ -1896,7 +1896,7 @@ footer nav ul li a {
 }
 @media (max-width: 767px) {
   .cl-client-logos .cl-wrapper .cl-client-logo {
-    width: 49% !important;
+    width: 32% !important;
   }
 }
 .cl-client-logos .cl-wrapper .svg-icon {
