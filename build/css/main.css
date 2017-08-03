@@ -1607,6 +1607,30 @@ footer nav ul li a {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   text-decoration: none;
 }
+footer ul.partner-logos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul.partner-logos li {
+  display: inline-block;
+  padding: 0 1.4em 0 0;
+  vertical-align: middle;
+}
+footer ul.partner-logos li.avaris img {
+  width: 74px;
+  height: auto;
+}
+footer ul.partner-logos li.bonninski img {
+  width: 126px;
+  height: auto;
+  padding-top: 0.2em;
+}
+footer ul.partner-logos li.hartgekocht img {
+  width: 124px;
+  height: auto;
+  padding-top: 0.7em;
+}
 /* mark the navi */
 .impressum footer a.impressum,
 .agb footer a.agb {
