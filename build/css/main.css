@@ -1596,7 +1596,8 @@ footer .social-buttons a {
 }
 footer nav ul {
   list-style: none;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
+  margin-top: 3em;
 }
 footer nav ul li {
   display: inline-block;
@@ -1609,8 +1610,9 @@ footer nav ul li a {
 }
 footer ul.partner-logos {
   list-style: none;
-  margin: 0;
+  margin: 2.5em 0 0 0;
   padding: 0;
+  font-size: 90%;
 }
 footer ul.partner-logos li {
   display: inline-block;
@@ -1618,18 +1620,33 @@ footer ul.partner-logos li {
   vertical-align: middle;
 }
 footer ul.partner-logos li.avaris img {
-  width: 74px;
+  width: 4.6em;
   height: auto;
 }
 footer ul.partner-logos li.bonninski img {
-  width: 126px;
+  width: 8em;
   height: auto;
   padding-top: 0.2em;
 }
 footer ul.partner-logos li.hartgekocht img {
-  width: 124px;
+  width: 7.8em;
   height: auto;
   padding-top: 0.7em;
+}
+@media (max-width: 1199px) {
+  footer ul.partner-logos {
+    font-size: 72%;
+  }
+}
+@media (max-width: 991px) {
+  footer ul.partner-logos {
+    font-size: 70%;
+  }
+}
+@media (max-width: 767px) {
+  footer ul.partner-logos {
+    font-size: 94%;
+  }
 }
 /* mark the navi */
 .impressum footer a.impressum,
