@@ -1596,7 +1596,8 @@ footer .social-buttons a {
 }
 footer nav ul {
   list-style: none;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
+  margin-top: 3em;
 }
 footer nav ul li {
   display: inline-block;
@@ -1606,6 +1607,46 @@ footer nav ul li a {
   color: #E2353C;
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   text-decoration: none;
+}
+footer ul.partner-logos {
+  list-style: none;
+  margin: 2.5em 0 0 0;
+  padding: 0;
+  font-size: 90%;
+}
+footer ul.partner-logos li {
+  display: inline-block;
+  padding: 0 1.4em 0 0;
+  vertical-align: middle;
+}
+footer ul.partner-logos li.avaris img {
+  width: 4.6em;
+  height: auto;
+}
+footer ul.partner-logos li.bonninski img {
+  width: 8em;
+  height: auto;
+  padding-top: 0.2em;
+}
+footer ul.partner-logos li.hartgekocht img {
+  width: 7.8em;
+  height: auto;
+  padding-top: 0.7em;
+}
+@media (max-width: 1199px) {
+  footer ul.partner-logos {
+    font-size: 72%;
+  }
+}
+@media (max-width: 991px) {
+  footer ul.partner-logos {
+    font-size: 70%;
+  }
+}
+@media (max-width: 767px) {
+  footer ul.partner-logos {
+    font-size: 94%;
+  }
 }
 /* mark the navi */
 .impressum footer a.impressum,
@@ -1864,6 +1905,7 @@ footer nav ul li a {
 .cl-client-logos {
   margin: 0 auto;
   max-width: 1440px;
+  text-align: center;
 }
 .cl-client-logos .cl-wrapper {
   margin-left: -5px;
@@ -1881,25 +1923,31 @@ footer nav ul li a {
 }
 .cl-client-logos .cl-wrapper .cl-client-logo {
   position: relative;
-  width: 20%;
+  width: 19%;
   overflow: hidden;
   height: auto;
   border: 5px solid #fff;
-  float: left;
   color: #777;
+  display: inline-block;
 }
 @media (max-width: 991px) {
   .cl-client-logos .cl-wrapper .cl-client-logo {
-    width: 33.3333333%;
+    width: 33%;
   }
 }
 @media (max-width: 767px) {
   .cl-client-logos .cl-wrapper .cl-client-logo {
-    width: 50% !important;
+    width: 32% !important;
   }
 }
 .cl-client-logos .cl-wrapper .svg-icon {
   width: 100%;
+  margin-bottom: 0px;
+}
+.cl-client-logos .cl-wrapper .svg-icon-direct {
+  max-width: 100%;
+  width: 198px;
+  height: auto;
   margin-bottom: 0px;
 }
 .content > section.team-kontakt {
@@ -1935,6 +1983,10 @@ footer nav ul li a {
   min-height: 300px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.map {
+  width: 100%;
+  height: 34em;
 }
 /* ==========================================================================
    Print styles.

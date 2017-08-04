@@ -135,7 +135,7 @@ This may go into a sepearate file for easier maintenance
                     <div class="col-sm-4">
                         <a href="ref_fairtrade.html">
                             <figure>
-                                <img src="img/yvonne.jpg" alt="">
+                                <img src="img/kathrin.jpg" alt="">
                                 <figcaption>
                                     <p>
                                         <span>Kathrin Rolfsen</span><br>
@@ -148,7 +148,7 @@ This may go into a sepearate file for easier maintenance
                     <div class="col-sm-4">
                         <a href="">
                             <figure>
-                                <img src="img/yvonne.jpg" alt="">
+                                <img src="img/klaus.jpg" alt="">
                                 <figcaption>
                                     <p>
                                         <span>Klaus Blömeke</span><br>
@@ -161,7 +161,7 @@ This may go into a sepearate file for easier maintenance
                     <div class="col-sm-4">
                         <a href="">
                             <figure>
-                                <img src="img/yvonne.jpg" alt="">
+                                <img src="img/michael.jpg" alt="">
                                 <figcaption>
                                     <p>
                                         <span>Michael Rolfsen</span><br>
@@ -174,7 +174,7 @@ This may go into a sepearate file for easier maintenance
                     <div class="col-sm-4">
                         <a href="">
                             <figure>
-                                <img src="img/yvonne.jpg" alt="">
+                                <img src="img/matthias.jpg" alt="">
                                 <figcaption>
                                     <p>
                                         <span>Matthias Günther</span><br>
@@ -204,8 +204,28 @@ This may go into a sepearate file for easier maintenance
             </div>
         </section>
 
-        <section class="map">
-            <iframe frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.de/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=avaris+|+godot,+Poppelsdorfer+Allee,+Bonn&amp;aq=0&amp;oq=avaris&amp;sll=50.713417,7.193298&amp;sspn=0.427391,0.786896&amp;ie=UTF8&amp;hq=avaris+|+godot,&amp;hnear=Poppelsdorfer+Allee,+53115+Bonn,+Nordrhein-Westfalen&amp;t=m&amp;cid=12077141414048687706&amp;ll=50.734337,7.09631&amp;spn=0.027162,0.081882&amp;z=14&amp;iwloc=A&amp;output=embed" width="955"></iframe>
+
+        <section class="map" id="googleMap">
+            <script>
+                function initMap() {
+                    console.log("init");
+                    var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+                    var blauerbaer = {lat: 50.7286071, lng: 7.0960195};
+                    var map = new google.maps.Map(document.getElementById('googleMap'), {
+                        zoom: 15,
+                        scrollwheel: false,
+                        center: blauerbaer
+                    });
+                    var marker = new google.maps.Marker({
+                        position: blauerbaer,
+                        map: map,
+                        icon: image
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPM5kStrWuvKdQO_ZSY4z6JFM8l44IGI&callback=initMap">
+            </script>
         </section>
 
     </div> <!-- /content -->
@@ -246,10 +266,17 @@ FOOTER =========================
                 kontakt@derblauebaer.de
             </p>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <p>Der blaue Bär ist ein Gemeinschaftsprojekt von Avaris&nbsp;GbR, Bonninski und hartgekocht.</p>
+
+            <ul class="partner-logos">
+                <li class="avaris"><img src="img/partner-logos/avaris_logo_rot.svg" alt=""></li>
+                <li class="bonninski"><img src="img/partner-logos/bonninski_logo_rot.svg" alt=""></li>
+                <li class="hartgekocht"><img src="img/partner-logos/hartgekocht_logo_rot.svg" alt=""></li>
+            </ul>
+
         </div>
-        <div class="col-sm-4 right-aligned">
+        <div class="col-sm-3 right-aligned">
 
             <div class="social-buttons">
                 <a class="twitter-button" href="#">
@@ -298,4 +325,3 @@ FOOTER =========================
 
 </body>
 </html>
-
