@@ -15,12 +15,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/.idea\/.name": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/.idea\/.name",
-		"oF": 0
-		},
 	"\/.idea\/blue-bear.iml": {
 		"ft": 8192,
 		"oA": 1,
@@ -49,6 +43,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
+		"oF": 1
+		},
+	"\/.idea\/webServers.xml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
@@ -269,7 +269,7 @@
 		},
 	"\/source\/assets\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 5894,
+		"iS": 20863,
 		"oA": 0,
 		"oAP": "\/build\/assets\/apple-touch-icon.png",
 		"oF": 0,
@@ -280,7 +280,7 @@
 		},
 	"\/source\/assets\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 637,
+		"iS": 391,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-16x16.png",
 		"oF": 0,
@@ -291,7 +291,7 @@
 		},
 	"\/source\/assets\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1196,
+		"iS": 707,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-32x32.png",
 		"oF": 0,
@@ -308,10 +308,10 @@
 		},
 	"\/source\/img\/baer-jagd.jpg": {
 		"ft": 16384,
-		"iS": 43411,
+		"iS": 701652,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer-jagd.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -321,7 +321,7 @@
 		"iS": 362016,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -329,9 +329,9 @@
 	"\/source\/img\/client-logos\/3con.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/3con.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -341,7 +341,7 @@
 		"iS": 6248,
 		"oA": 0,
 		"oAP": "\/build\/img\/client-logos\/BMZ-logo.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -350,9 +350,9 @@
 	"\/source\/img\/client-logos\/BMZ.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/BMZ.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -360,9 +360,9 @@
 	"\/source\/img\/client-logos\/bscw.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/bscw.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -370,9 +370,9 @@
 	"\/source\/img\/client-logos\/cassiusgarten.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/cassiusgarten.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -380,9 +380,9 @@
 	"\/source\/img\/client-logos\/deco-glas.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/deco-glas.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -390,9 +390,9 @@
 	"\/source\/img\/client-logos\/DIE.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/DIE.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -400,9 +400,9 @@
 	"\/source\/img\/client-logos\/dks.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/dks.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -430,9 +430,9 @@
 	"\/source\/img\/client-logos\/fairtrade.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/fairtrade.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -440,9 +440,9 @@
 	"\/source\/img\/client-logos\/Fraunhofer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/Fraunhofer.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -450,9 +450,9 @@
 	"\/source\/img\/client-logos\/froscon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/froscon.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -460,9 +460,9 @@
 	"\/source\/img\/client-logos\/giz.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/giz.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -470,9 +470,9 @@
 	"\/source\/img\/client-logos\/glas-ist-gut.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/glas-ist-gut.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -480,9 +480,9 @@
 	"\/source\/img\/client-logos\/INSM.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/INSM.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -490,9 +490,9 @@
 	"\/source\/img\/client-logos\/NOVO.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/NOVO.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -500,9 +500,9 @@
 	"\/source\/img\/client-logos\/provinzial.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/provinzial.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -510,9 +510,9 @@
 	"\/source\/img\/client-logos\/true-fruits.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/true-fruits.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -520,9 +520,9 @@
 	"\/source\/img\/client-logos\/uni-bonn.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/uni-bonn.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -540,9 +540,9 @@
 	"\/source\/img\/client-logos\/wmbn.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/client-logos\/wmbn.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -550,9 +550,9 @@
 	"\/source\/img\/icon-twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/icon-twitter.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -560,9 +560,9 @@
 	"\/source\/img\/icon-xing.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/icon-xing.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -584,15 +584,15 @@
 		"oAP": "\/build\/img\/klaus.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/Logo dbB.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/build\/img\/Logo dbB.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -604,17 +604,17 @@
 		"oAP": "\/build\/img\/matthias.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/michael.jpg": {
 		"ft": 16384,
-		"iS": 80737,
+		"iS": 77461,
 		"oA": 0,
 		"oAP": "\/build\/img\/michael.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/partner-logos\/avaris_logo_rot.svg": {
@@ -649,10 +649,10 @@
 		},
 	"\/source\/img\/partner.jpg": {
 		"ft": 16384,
-		"iS": 1437073,
+		"iS": 619053,
 		"oA": 0,
 		"oAP": "\/build\/img\/partner.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -848,7 +848,7 @@
 		"iS": 278102,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_04Lres.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -858,7 +858,7 @@
 		"iS": 220619,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_39Lres.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -868,7 +868,7 @@
 		"iS": 297667,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_46Lres.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -878,7 +878,7 @@
 		"iS": 188664,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_62Lres.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -888,7 +888,7 @@
 		"iS": 220583,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_DSCF2214.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -898,7 +898,7 @@
 		"iS": 326775,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Fullscreen_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -908,7 +908,7 @@
 		"iS": 57085,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_PdP.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -918,7 +918,7 @@
 		"iS": 263141,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -928,7 +928,7 @@
 		"iS": 124170,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_02.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -948,7 +948,7 @@
 		"iS": 180063,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/F130901605_Phonehand.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -958,9 +958,9 @@
 		"iS": 211170,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1386R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_dlr\/DLR_DSCF1412R.jpg": {
@@ -968,7 +968,7 @@
 		"iS": 237794,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1412R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -978,7 +978,7 @@
 		"iS": 322855,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1441R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -988,7 +988,7 @@
 		"iS": 362371,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1447R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -998,7 +998,7 @@
 		"iS": 287468,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1454R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1008,7 +1008,7 @@
 		"iS": 109664,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1485R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1018,7 +1018,7 @@
 		"iS": 51766,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1028,7 +1028,7 @@
 		"iS": 127630,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_02.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1038,7 +1038,7 @@
 		"iS": 143800,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_03.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1048,7 +1048,7 @@
 		"iS": 332024,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_04.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1058,7 +1058,7 @@
 		"iS": 325943,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Print_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1068,7 +1068,7 @@
 		"iS": 361772,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Print_02.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1078,7 +1078,7 @@
 		"iS": 280738,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9853R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1088,7 +1088,7 @@
 		"iS": 288477,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9893R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1098,7 +1098,7 @@
 		"iS": 178019,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9926R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1108,7 +1108,7 @@
 		"iS": 275205,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9981R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1118,7 +1118,7 @@
 		"iS": 166697,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9987R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1128,17 +1128,17 @@
 		"iS": 326332,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9989R.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 176011,
+		"iS": 230875,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1148,7 +1148,7 @@
 		"iS": 347751,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_MG_5678.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1158,7 +1158,7 @@
 		"iS": 247040,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/FtD_DSCF2178.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1168,7 +1168,7 @@
 		"iS": 243224,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/FtD_Resp_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1178,37 +1178,37 @@
 		"iS": 481802,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade-volle-breite.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/fairtrade_Impressum.jpg": {
 		"ft": 16384,
-		"iS": 864707,
+		"iS": 447656,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_Impressum.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/fairtrade_Introbild.jpg": {
 		"ft": 16384,
-		"iS": 503250,
+		"iS": 235709,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_Introbild.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/fairtrade_Katalog_Produkte.jpg": {
 		"ft": 16384,
-		"iS": 877696,
+		"iS": 449862,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_Katalog_Produkte.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1218,7 +1218,7 @@
 		"iS": 296897,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_klein_links_oben.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1228,7 +1228,7 @@
 		"iS": 262231,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_klein_links_unten.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1238,7 +1238,7 @@
 		"iS": 171443,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_klein_rechts_oben.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1248,37 +1248,37 @@
 		"iS": 169670,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/fairtrade_klein_rechts_unten.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 459814,
+		"iS": 230875,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/Fairtrade_Maske.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/Fairtrade_Pad.jpg": {
 		"ft": 16384,
-		"iS": 167852,
+		"iS": 116498,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/Fairtrade_Pad.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade_old\/Fairtrade_Start.jpg": {
 		"ft": 16384,
-		"iS": 420612,
+		"iS": 256261,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade_old\/Fairtrade_Start.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1405,10 +1405,10 @@
 		},
 	"\/source\/img\/ref_overview\/ref_overview_argos.jpg": {
 		"ft": 16384,
-		"iS": 283613,
+		"iS": 136344,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_argos.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1418,57 +1418,57 @@
 		"iS": 433832,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas-big.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas.jpg": {
 		"ft": 16384,
-		"iS": 253501,
+		"iS": 122785,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_dlr.jpg": {
 		"ft": 16384,
-		"iS": 525758,
+		"iS": 274021,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_dlr.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_epag.jpg": {
 		"ft": 16384,
-		"iS": 214289,
+		"iS": 80321,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_epag.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_fairtrade.jpg": {
 		"ft": 16384,
-		"iS": 457178,
+		"iS": 198726,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_fairtrade.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_true-fruits.jpg": {
 		"ft": 16384,
-		"iS": 175528,
+		"iS": 91419,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_true-fruits.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1480,7 +1480,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/StBRS_04.jpg": {
@@ -1490,7 +1490,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/StBRS_Resp_01.jpg": {
@@ -1500,7 +1500,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_Resp_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/StBRS_Start.jpg": {
@@ -1510,7 +1510,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_Start.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-015.jpg": {
@@ -1520,7 +1520,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-015.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-114.jpg": {
@@ -1530,7 +1530,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-114.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-004.jpg": {
@@ -1540,7 +1540,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-004.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-053.jpg": {
@@ -1550,7 +1550,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-053.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Team-TR15-130.jpg": {
@@ -1560,7 +1560,7 @@
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Team-TR15-130.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_true-fruits\/DSCF2331_Ret.jpg": {
@@ -1568,7 +1568,7 @@
 		"iS": 190317,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2331_Ret.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1578,7 +1578,7 @@
 		"iS": 458824,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2355_Ret.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1588,7 +1588,7 @@
 		"iS": 280805,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2357_Ret.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1598,7 +1598,7 @@
 		"iS": 463753,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/F1629649_Aepfel.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1608,7 +1608,7 @@
 		"iS": 207166,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/F4420801_Apfelscheibe.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1618,7 +1618,7 @@
 		"iS": 237987,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/TF_02.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1628,7 +1628,7 @@
 		"iS": 217442,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/TF_Resp_01.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1638,7 +1638,7 @@
 		"iS": 63246,
 		"oA": 0,
 		"oAP": "\/build\/img\/yvonne.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
