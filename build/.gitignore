@@ -10,3 +10,4 @@ nbprojekt/
 *.esproj/
 config.codekit3
 /godot/link_list_*.js
+*.codekit3
