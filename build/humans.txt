@@ -3,14 +3,13 @@
 
 # TEAM
 
-    Michael Rolfsen -- designer / developer at avaris -- @michaelsupdates
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    too many to mention - check back here in a while...
+    <name>
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
-    LESS, kit, codekit build tool

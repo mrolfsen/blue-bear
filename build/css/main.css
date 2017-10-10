@@ -174,7 +174,8 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
 }
 /**
@@ -280,7 +281,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -301,7 +303,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 2 */
 }
 /**
@@ -443,12 +446,14 @@ textarea {
  * this to it's child elements
  */
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 /*
  * Hide visually and from screen readers:
@@ -1351,6 +1356,7 @@ a.btn {
   display: inline-block;
   margin: 1em 0 2em;
   background: transparent;
+  -webkit-transition: all .2s;
   transition: all .2s;
 }
 a.btn:hover {
@@ -2001,7 +2007,8 @@ footer ul.partner-logos li.hartgekocht img {
     color: #000 !important;
     /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   a,
