@@ -1483,7 +1483,7 @@ header h1 span {
 .home header h1 {
   margin: 0;
   padding: 11vw 8vw;
-  font: 900 11.2vw/0.9 'Source Sans Pro', sans-serif;
+  font: 900 10.8vw/0.9 'Source Sans Pro', sans-serif;
   letter-spacing: -0.02em;
   position: absolute;
   bottom: 0;
@@ -1586,6 +1586,10 @@ footer {
 footer p {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   margin-top: .5em;
+}
+footer p a {
+  color: #E2353C;
+  text-decoration: none;
 }
 footer .logo {
   padding: 0.5em 0 1.5em;
