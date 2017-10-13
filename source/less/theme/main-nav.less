@@ -39,3 +39,72 @@ nav.main-nav {
 .kontakt    .main-nav     .kontakt a {
   color:@red;
 }
+
+.navToggle {
+  display: none;
+}
+
+@media (max-width:480px) {
+  .navToggle {
+    display: block;
+    border: none;
+    background: transparent;
+    color:@white;
+    position: absolute;
+    top: -1em;
+    right: -1em;
+    padding: 0.8em;
+  }
+  .burger-icon {
+    height: 17px;
+    width: 24px;
+  }
+
+
+  // le navigation
+
+  nav.main-nav {
+    z-index:3;
+    top:1.6em;
+    right:1.8em;
+    ul {
+      display:none;
+      padding:0;
+      margin:0;
+      position:fixed;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      background:#fff;
+      padding-top:20%;
+      transition:all .6s;
+      opacity:0;
+
+      &.visible-mobile {
+        display:block;
+        height:100%;
+        opacity: .95;
+        transform:scale(1);
+      }
+      li {
+        display:block;
+
+        a {
+          font:800 2.8em/1.2 @sans-serif-font;
+          display:block;
+          text-align:center;
+          text-decoration:none;
+          color:@blue;
+          padding:.5em .5em;
+        }
+      }
+    }
+  }
+}
+
+.light-header {
+  .navToggle {
+    color:@blue;
+  }
+}
