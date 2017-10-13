@@ -39,11 +39,29 @@
 		"oAP": "\/build\/.idea\/encodings.xml",
 		"oF": 1
 		},
+	"\/.idea\/markdown-navigator.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/markdown-navigator.xml",
+		"oF": 0
+		},
+	"\/.idea\/markdown-navigator\/profiles_settings.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/markdown-navigator\/profiles_settings.xml",
+		"oF": 0
+		},
 	"\/.idea\/modules.xml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/modules.xml",
 		"oF": 1
+		},
+	"\/.idea\/preferred-vcs.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/preferred-vcs.xml",
+		"oF": 0
 		},
 	"\/.idea\/vcs.xml": {
 		"ft": 8192,
