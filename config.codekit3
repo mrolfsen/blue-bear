@@ -257,9 +257,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/README.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -287,34 +287,34 @@
 		},
 	"\/source\/assets\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 5894,
+		"iS": 20863,
 		"oA": 0,
 		"oAP": "\/build\/assets\/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/source\/assets\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 637,
+		"iS": 391,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/source\/assets\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1196,
+		"iS": 707,
 		"oA": 0,
 		"oAP": "\/build\/assets\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -326,22 +326,22 @@
 		},
 	"\/source\/img\/baer-jagd.jpg": {
 		"ft": 16384,
-		"iS": 43411,
+		"iS": 270882,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer-jagd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/baer.jpg": {
 		"ft": 16384,
-		"iS": 362016,
+		"iS": 330506,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/client-logos\/3con.svg": {
@@ -627,7 +627,7 @@
 		},
 	"\/source\/img\/michael.jpg": {
 		"ft": 16384,
-		"iS": 80737,
+		"iS": 77461,
 		"oA": 0,
 		"oAP": "\/build\/img\/michael.jpg",
 		"oF": 0,
@@ -667,12 +667,12 @@
 		},
 	"\/source\/img\/partner.jpg": {
 		"ft": 16384,
-		"iS": 1437073,
+		"iS": 619053,
 		"oA": 0,
 		"oAP": "\/build\/img\/partner.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_argos\/Argos_02.jpg": {
@@ -938,7 +938,7 @@
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_deco-glas\/DG_Resp_02.jpg": {
@@ -958,7 +958,7 @@
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_deco-glas\/F130901605_Phonehand.jpg": {
@@ -1158,7 +1158,7 @@
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_MG_5678.jpg": {
@@ -1308,17 +1308,17 @@
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_Resp_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_argos.jpg": {
 		"ft": 16384,
-		"iS": 283613,
+		"iS": 136344,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_argos.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas-big.jpg": {
@@ -1328,57 +1328,57 @@
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas.jpg": {
 		"ft": 16384,
-		"iS": 253501,
+		"iS": 122785,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_dlr.jpg": {
 		"ft": 16384,
-		"iS": 525758,
+		"iS": 274021,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_dlr.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_epag.jpg": {
 		"ft": 16384,
-		"iS": 214289,
+		"iS": 80321,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_epag.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_fairtrade.jpg": {
 		"ft": 16384,
-		"iS": 457178,
+		"iS": 198726,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_fairtrade.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_overview\/ref_overview_true-fruits.jpg": {
 		"ft": 16384,
-		"iS": 175528,
+		"iS": 91419,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_true-fruits.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/ref_strahlentherapie\/StBRS_02.jpg": {
@@ -1548,7 +1548,7 @@
 		"oAP": "\/build\/img\/yvonne.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/impressum.kit": {
@@ -1611,7 +1611,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1621,7 +1621,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/js\/min\/min\/plugins-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1640,20 +1640,20 @@
 	"\/source\/js\/vendor\/jquery-1.12.4.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
-		"oA": 2,
-		"oAP": "\/build\/js\/vendor\/jquery-1.12.4.min.js",
-		"oF": 3,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/vendor\/min\/jquery-1.12.4.min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/js\/vendor\/modernizr-2.8.3.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
-		"oA": 2,
-		"oAP": "\/build\/js\/vendor\/modernizr-2.8.3.min.js",
-		"oF": 3,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1749,13 +1749,13 @@
 		"sU": 0
 		},
 	"\/source\/less\/main.less": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/main.css",
 		"oF": 0,

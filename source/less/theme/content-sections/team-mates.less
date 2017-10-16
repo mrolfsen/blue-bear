@@ -11,8 +11,9 @@
     position: relative;
 
     .image-container {
-      margin-left:-15px;
-      margin-right:-15px;
+      //margin-left:-15px;
+      //margin-right:-15px;
+      margin:0;
     }
 
 
@@ -100,19 +101,27 @@
 // special refernz
 
 @media (min-width:@screen-sm-min) {
-.ref-intro {
+  .ref-intro {
 
-  figure {
-    .image-container {
-      width: 75%;
-      margin: 0;
-    }
-    figcaption {
-      position: absolute;
-      top: -8em;
-      width: 42%;
-      margin-left: 60%;
+    figure {
+      .image-container {
+        width: 75%;
+        margin: 0;
+      }
+      figcaption {
+        position: absolute;
+        top: -8em;
+        width: 42%;
+        margin-left: 60%;
+      }
     }
   }
 }
+
+@media (max-width:@screen-xs-max) {
+  .content > section.team-mates {
+    padding-top:0;
+    padding-bottom:0;
+  }
+
 }
