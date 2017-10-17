@@ -1625,6 +1625,14 @@ footer {
   color: #E2353C;
   padding: .5em 1.0em .5em 1.0em;
 }
+footer a {
+  color: #E2353C;
+  text-decoration: none;
+  transition: color .2s;
+}
+footer a:hover {
+  color: #1E1964;
+}
 @media (max-width: 767px) {
   footer {
     padding: .5em 0;
@@ -1633,10 +1641,6 @@ footer {
 footer p {
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
   margin-top: .5em;
-}
-footer p a {
-  color: #E2353C;
-  text-decoration: none;
 }
 footer .logo {
   padding: 0.5em 0 1.5em;
@@ -1647,10 +1651,6 @@ footer .right-aligned {
 footer .social-buttons {
   margin-bottom: 2em;
 }
-footer .social-buttons a {
-  color: #E2353C;
-  text-decoration: none;
-}
 footer nav ul {
   list-style: none;
   margin-bottom: 2em;
@@ -1658,12 +1658,18 @@ footer nav ul {
 }
 footer nav ul li {
   display: inline-block;
-  padding-left: 1em;
+  padding: 0;
+}
+footer nav ul li:after {
+  content: "//";
+}
+footer nav ul li:last-child:after {
+  display: none;
 }
 footer nav ul li a {
-  color: #E2353C;
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
-  text-decoration: none;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 footer ul.partner-logos {
   list-style: none;
@@ -2114,3 +2120,4 @@ footer ul.partner-logos li.hartgekocht img {
     page-break-after: avoid;
   }
 }
+/*# sourceMappingURL=main.css.map */
