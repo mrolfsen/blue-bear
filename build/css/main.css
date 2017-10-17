@@ -1274,6 +1274,21 @@ html {
   padding-top: 1em;
   padding-bottom: 0em;
 }
+@media (max-width: 767px) {
+  .content > section {
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+  .content > section.lesser-gap {
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+  .content > section.least-gap {
+    padding-top: 0;
+    padding-bottom: 1em;
+    margin-top: -2em;
+  }
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -1302,7 +1317,7 @@ h2 {
 h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
-  margin-bottom: -1em;
+  margin-bottom: -0.8em;
 }
 dl {
   display: flex;
