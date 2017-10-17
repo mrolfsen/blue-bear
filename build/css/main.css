@@ -1368,11 +1368,31 @@ a.btn:hover {
   background: #E2353C;
 }
 .content section ul {
-  margin: 1em 0 3em;
+  margin: 2em 0 3em;
   padding: 0;
   list-style: none;
 }
 .content section ul li {
+  margin: 2px 0;
+  padding: 0.5em 0 .5em 1.2em;
+  display: inline-block;
+  font: 500 1.3em/1.4 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+.content section ul li:before {
+  content: "•";
+  font: 800 1.6em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  position: absolute;
+  top: -0.02em;
+  left: 0.1em;
+}
+.content section ul.big-ul {
+  margin: 1em 0 3em;
+  padding: 0;
+  list-style: none;
+}
+.content section ul.big-ul li {
   margin: 2px 0;
   padding: 0.5em 0.8em;
   display: inline-block;

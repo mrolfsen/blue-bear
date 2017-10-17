@@ -86,6 +86,30 @@ a.btn {
 }
 
 .content section ul {
+  margin:2em 0 3em;
+  padding:0;
+  list-style:none;
+
+  li {
+    margin: 2px 0;
+    padding: 0.5em 0 .5em 1.2em;
+    display:inline-block;
+    //background: @red;
+    //color:@blue;
+    font:500 1.3em/1.4 @sans-serif-font;
+    position: relative;
+
+    &:before {
+      content:"•";
+      font:800 1.6em/1.4 @sans-serif-font;
+      color:@red;
+      position: absolute;
+      top: -0.02em;
+      left: 0.1em;
+    }
+  }
+}
+.content section ul.big-ul {
   margin:1em 0 3em;
   padding:0;
   list-style:none;
