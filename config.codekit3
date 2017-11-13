@@ -7,75 +7,87 @@
 		"uuidString": "100C10FF-6142-423D-9737-7EE768750804"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/.idea\/.name": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.idea\/.name",
 		"oF": 0
 		},
 	"\/.idea\/blue-bear.iml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/blue-bear.iml",
 		"oF": 1
 		},
 	"\/.idea\/deployment.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/deployment.xml",
 		"oF": 1
 		},
 	"\/.idea\/encodings.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/encodings.xml",
 		"oF": 1
 		},
 	"\/.idea\/markdown-navigator.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.idea\/markdown-navigator.xml",
 		"oF": 0
 		},
 	"\/.idea\/markdown-navigator\/profiles_settings.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.idea\/markdown-navigator\/profiles_settings.xml",
 		"oF": 0
 		},
 	"\/.idea\/modules.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/modules.xml",
 		"oF": 1
 		},
 	"\/.idea\/preferred-vcs.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.idea\/preferred-vcs.xml",
 		"oF": 0
 		},
 	"\/.idea\/vcs.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/workspace.xml",
 		"oF": 1
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/browserconfig.xml",
@@ -88,16 +100,17 @@
 		"oF": 0
 		},
 	"\/crossdomain.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/crossdomain.xml",
 		"oF": 0
 		},
 	"\/doc\/css.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -112,10 +125,10 @@
 		"uCM": 0
 		},
 	"\/doc\/extend.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -130,10 +143,10 @@
 		"uCM": 0
 		},
 	"\/doc\/faq.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -148,10 +161,10 @@
 		"uCM": 0
 		},
 	"\/doc\/html.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -166,10 +179,10 @@
 		"uCM": 0
 		},
 	"\/doc\/js.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -184,10 +197,10 @@
 		"uCM": 0
 		},
 	"\/doc\/misc.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -202,10 +215,10 @@
 		"uCM": 0
 		},
 	"\/doc\/TOC.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -220,10 +233,10 @@
 		"uCM": 0
 		},
 	"\/doc\/usage.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -238,22 +251,24 @@
 		"uCM": 0
 		},
 	"\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/humans.txt",
 		"oF": 0
 		},
 	"\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/LICENSE.txt",
 		"oF": 1
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -268,18 +283,21 @@
 		"uCM": 0
 		},
 	"\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/robots.txt",
 		"oF": 0
 		},
 	"\/source\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/404.html",
 		"oF": 0
 		},
 	"\/source\/agb.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/agb.html",
@@ -319,6 +337,7 @@
 		"q": 100
 		},
 	"\/source\/assets\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/favicon.ico",
@@ -1562,24 +1581,28 @@
 		"q": 100
 		},
 	"\/source\/impressum.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/impressum.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_client-logos.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_client-logos.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_footer.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_footer.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_header.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_header.html",
@@ -1596,12 +1619,14 @@
 		"prP": 0
 		},
 	"\/source\/includes\/_main-nav.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_main-nav.html",
 		"oF": 0
 		},
 	"\/source\/index.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/index.html",
@@ -1648,6 +1673,7 @@
 		"tS": 0
 		},
 	"\/source\/kontakt.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/kontakt.html",
@@ -1748,7 +1774,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/build\/css\/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -1960,66 +1986,77 @@
 		"sU": 0
 		},
 	"\/source\/partner.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/partner.html",
 		"oF": 0
 		},
 	"\/source\/ref_argos.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_argos.html",
 		"oF": 0
 		},
 	"\/source\/ref_cbal.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_cbal.html",
 		"oF": 0
 		},
 	"\/source\/ref_deco-glas.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_deco-glas.html",
 		"oF": 0
 		},
 	"\/source\/ref_dlr.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_dlr.html",
 		"oF": 0
 		},
 	"\/source\/ref_fairtrade.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_fairtrade.html",
 		"oF": 0
 		},
 	"\/source\/ref_gezeitenhaus.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_gezeitenhaus.html",
 		"oF": 0
 		},
 	"\/source\/ref_strahlentherapie.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_strahlentherapie.html",
 		"oF": 0
 		},
 	"\/source\/ref_true-fruts.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_true-fruts.html",
 		"oF": 0
 		},
 	"\/source\/referenzen.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/referenzen.html",
 		"oF": 0
 		},
 	"\/source\/staerken.kit": {
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/staerken.html",
@@ -2571,6 +2608,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2635,9 +2676,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2667,6 +2708,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2676,14 +2721,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3787,7 +3824,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -3820,6 +3858,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3861,7 +3900,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3893,13 +3933,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3908,7 +3948,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3928,7 +3969,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3956,7 +3998,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
