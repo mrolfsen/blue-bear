@@ -8,18 +8,18 @@
     <meta name="description" content="Die Stärken des blauen Bären">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png?ckcachebust=532267596">
-    <link rel="favicon" href="favicon.ico?ckcachebust=532267596">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="favicon" href="favicon.ico">
 
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=d0daaabbf770d6dc1f8ab2424afebb77">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=a6f185920ad812e3df788ee69e0c8606" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=47c2b635d13c89aed4a230813e1dbd18" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=2ecabe71cca257ea836dee8c15d34959">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico">
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=280daa80d8eb032e8e5ab8d164e400e3">
+    <link rel="stylesheet" href="css/main.css">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=94aa7164aa9114c586e11dd3d33bc3d5"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body class="partner">
 
@@ -161,7 +161,12 @@ This may go into a sepearate file for easier maintenance
         <section class="ref-images">
             <div class="row">
                 <div class="col-sm-12">
-                    <img src="img/partner.jpg" alt="">
+
+                    <picture>
+                        <source srcset="img/lafamilia-portrait.jpg" media="(max-width: 480px)">
+                        <img src="img/lafamilia-landscape.jpg" alt="Der blaue Bär: Partner">
+                    </picture>
+
                 </div>
             </div>
         </section>
@@ -343,11 +348,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=532267596"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=6693ae6683e2732cb4fd0a6c9977b37d"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=5daef575e77baad65266cf9cc605bc97"></script>
-<script src="js/min/main-min.js?ckcachebust=b5fbca0116ffde6bc792f0c6bca79a2b"></script>
+<script src="js/min/plugins-min.js"></script>
+<script src="js/min/main-min.js"></script>
 
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

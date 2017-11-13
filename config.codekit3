@@ -634,6 +634,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/lafamilia-landscape.jpg": {
+		"ft": 16384,
+		"iS": 429440,
+		"oA": 0,
+		"oAP": "\/build\/img\/lafamilia-landscape.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/lafamilia-portrait.jpg": {
+		"ft": 16384,
+		"iS": 229575,
+		"oA": 0,
+		"oAP": "\/build\/img\/lafamilia-portrait.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/source\/img\/Logo dbB.svg": {
 		"ft": 2097152,
 		"miP": 0,
