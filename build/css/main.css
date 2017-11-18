@@ -174,8 +174,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
 }
 /**
@@ -281,8 +280,7 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -303,8 +301,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 2 */
 }
 /**
@@ -446,14 +443,12 @@ textarea {
  * this to it's child elements
  */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 /*
  * Hide visually and from screen readers:
@@ -1279,6 +1274,21 @@ html {
   padding-top: 1em;
   padding-bottom: 0em;
 }
+@media (max-width: 767px) {
+  .content > section {
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+  .content > section.lesser-gap {
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+  .content > section.least-gap {
+    padding-top: 0;
+    padding-bottom: 1em;
+    margin-top: -2em;
+  }
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -1307,16 +1317,11 @@ h2 {
 h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
-  margin-bottom: -1em;
+  margin-bottom: -0.8em;
 }
 dl {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin: .2em 0 0.3em 0;
 }
 dt {
@@ -1356,7 +1361,6 @@ a.btn {
   display: inline-block;
   margin: 1em 0 2em;
   background: transparent;
-  -webkit-transition: all .2s;
   transition: all .2s;
 }
 a.btn:hover {
@@ -1364,11 +1368,31 @@ a.btn:hover {
   background: #E2353C;
 }
 .content section ul {
-  margin: 1em 0 3em;
+  margin: 2em 0 3em;
   padding: 0;
   list-style: none;
 }
 .content section ul li {
+  margin: 2px 0;
+  padding: 0.5em 0 .5em 1.2em;
+  display: inline-block;
+  font: 500 1.3em/1.4 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+.content section ul li:before {
+  content: "•";
+  font: 800 1.6em/1.4 'Source Sans Pro', sans-serif;
+  color: #E2353C;
+  position: absolute;
+  top: -0.02em;
+  left: 0.1em;
+}
+.content section ul.big-ul {
+  margin: 1em 0 3em;
+  padding: 0;
+  list-style: none;
+}
+.content section ul.big-ul li {
   margin: 2px 0;
   padding: 0.5em 0.8em;
   display: inline-block;
@@ -1483,7 +1507,7 @@ header h1 span {
 .home header h1 {
   margin: 0;
   padding: 11vw 8vw;
-  font: 900 11.2vw/0.9 'Source Sans Pro', sans-serif;
+  font: 900 10.8vw/0.9 'Source Sans Pro', sans-serif;
   letter-spacing: -0.02em;
   position: absolute;
   bottom: 0;
@@ -1574,9 +1598,95 @@ nav.main-nav ul li a {
 .kontakt .main-nav .kontakt a {
   color: #E2353C;
 }
+.navToggle {
+  display: none;
+  outline: none !important;
+}
+@media (max-width: 480px) {
+  .navToggle {
+    display: block;
+    border: none;
+    background: transparent;
+    color: #fff;
+    position: absolute;
+    top: -1em;
+    right: -1em;
+    padding: 0.8em;
+  }
+  .burger-icon {
+    height: 17px;
+    width: 24px;
+  }
+  nav.main-nav {
+    z-index: 3;
+    top: 1.6em;
+    right: 1.8em;
+  }
+  nav.main-nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    padding-top: 20%;
+    transition: opacity .4s;
+    opacity: 0;
+  }
+  nav.main-nav ul li {
+    display: block;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-5em);
+    transition: transform .4s, opacity .4s;
+  }
+  nav.main-nav ul li:nth-child(1) {
+    transition-delay: .1s;
+  }
+  nav.main-nav ul li:nth-child(2) {
+    transition-delay: .2s;
+  }
+  nav.main-nav ul li:nth-child(3) {
+    transition-delay: .3s;
+  }
+  nav.main-nav ul li:nth-child(4) {
+    transition-delay: .4s;
+  }
+  nav.main-nav ul li a {
+    font: 800 2.8em/1.2 'Source Sans Pro', sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1E1964;
+    padding: .5em .5em;
+  }
+  nav.main-nav ul.visible-mobile {
+    display: block;
+    height: 100%;
+    opacity: .95;
+  }
+  nav.main-nav ul.visible-mobile li {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.light-header .navToggle {
+  color: #1E1964;
+}
 footer {
   color: #E2353C;
   padding: .5em 1.0em .5em 1.0em;
+}
+footer a {
+  color: #E2353C;
+  text-decoration: none;
+  transition: color .2s;
+}
+footer a:hover {
+  color: #1E1964;
 }
 @media (max-width: 767px) {
   footer {
@@ -1596,10 +1706,6 @@ footer .right-aligned {
 footer .social-buttons {
   margin-bottom: 2em;
 }
-footer .social-buttons a {
-  color: #E2353C;
-  text-decoration: none;
-}
 footer nav ul {
   list-style: none;
   margin-bottom: 2em;
@@ -1607,12 +1713,18 @@ footer nav ul {
 }
 footer nav ul li {
   display: inline-block;
-  padding-left: 1em;
+  padding: 0;
+}
+footer nav ul li:after {
+  content: "//";
+}
+footer nav ul li:last-child:after {
+  display: none;
 }
 footer nav ul li a {
-  color: #E2353C;
   font: 600 1.1em/1.3 'Source Sans Pro', sans-serif;
-  text-decoration: none;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 footer ul.partner-logos {
   list-style: none;
@@ -1738,8 +1850,7 @@ footer ul.partner-logos li.hartgekocht img {
 }
 .team-mates figure .image-container,
 .ref-intro figure .image-container {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin: 0;
 }
 .team-mates figure figcaption,
 .ref-intro figure figcaption {
@@ -1855,6 +1966,12 @@ footer ul.partner-logos li.hartgekocht img {
     top: -8em;
     width: 42%;
     margin-left: 60%;
+  }
+}
+@media (max-width: 767px) {
+  .content > section.team-mates {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 .content > section.ref-images {
@@ -2007,8 +2124,7 @@ footer ul.partner-logos li.hartgekocht img {
     color: #000 !important;
     /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     text-shadow: none !important;
   }
   a,

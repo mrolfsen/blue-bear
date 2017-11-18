@@ -16,6 +16,13 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/.idea\/.name": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/.name",
+		"oF": 0
+		},
 	"\/.idea\/blue-bear.iml": {
 		"cB": 0,
 		"ft": 8192,
@@ -58,18 +65,18 @@
 		"oAP": "\/build\/.idea\/modules.xml",
 		"oF": 1
 		},
+	"\/.idea\/preferred-vcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/preferred-vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/vcs.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
-		"oF": 1
-		},
-	"\/.idea\/webServers.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
@@ -265,9 +272,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/README.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -290,7 +297,7 @@
 		"oF": 0
 		},
 	"\/source\/agb.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/agb.html",
@@ -577,6 +584,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/icon-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/icon-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/icon-twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -597,11 +614,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/kathrin-rolfsen.jpg": {
+		"ft": 16384,
+		"iS": 727693,
+		"oA": 0,
+		"oAP": "\/build\/img\/kathrin-rolfsen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/kathrin.jpg": {
 		"ft": 16384,
 		"iS": 129145,
 		"oA": 0,
 		"oAP": "\/build\/img\/kathrin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/klaus-bloemeke.jpg": {
+		"ft": 16384,
+		"iS": 1102635,
+		"oA": 0,
+		"oAP": "\/build\/img\/klaus-bloemeke.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -617,6 +654,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/lafamilia-landscape-fine.jpg": {
+		"ft": 16384,
+		"iS": 1904285,
+		"oA": 0,
+		"oAP": "\/build\/img\/lafamilia-landscape-fine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/lafamilia-portrait-fine.jpg": {
+		"ft": 16384,
+		"iS": 1164117,
+		"oA": 0,
+		"oAP": "\/build\/img\/lafamilia-portrait-fine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/Logo dbB.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -627,11 +684,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/map-marker.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/map-marker.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/matthias-guenther.jpg": {
+		"ft": 16384,
+		"iS": 961506,
+		"oA": 0,
+		"oAP": "\/build\/img\/matthias-guenther.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/matthias.jpg": {
 		"ft": 16384,
 		"iS": 79627,
 		"oA": 0,
 		"oAP": "\/build\/img\/matthias.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/michael-rolfsen.jpg": {
+		"ft": 16384,
+		"iS": 945506,
+		"oA": 0,
+		"oAP": "\/build\/img\/michael-rolfsen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1165,7 +1252,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 230875,
+		"iS": 176011,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
@@ -1553,6 +1640,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/yvonne-gruenenwald.jpg": {
+		"ft": 16384,
+		"iS": 1058679,
+		"oA": 0,
+		"oAP": "\/build\/img\/yvonne-gruenenwald.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/yvonne.jpg": {
 		"ft": 16384,
 		"iS": 63246,
@@ -1564,28 +1661,28 @@
 		"q": 100
 		},
 	"\/source\/impressum.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/impressum.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_client-logos.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_client-logos.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_footer.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_footer.html",
 		"oF": 0
 		},
 	"\/source\/includes\/_header.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_header.html",
@@ -1602,14 +1699,14 @@
 		"prP": 0
 		},
 	"\/source\/includes\/_main-nav.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_main-nav.html",
 		"oF": 0
 		},
 	"\/source\/index.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/index.html",
@@ -1621,26 +1718,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/min\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/source\/js\/min\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/js\/min\/min\/main-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/source\/js\/min\/plugins-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/js\/min\/min\/plugins-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1658,25 +1735,25 @@
 	"\/source\/js\/vendor\/jquery-1.12.4.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 2,
-		"oAP": "\/build\/js\/vendor\/jquery-1.12.4.min.js",
-		"oF": 3,
+		"oAP": "\/build\/js\/vendor\/min\/jquery-1.12.4.min-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/js\/vendor\/modernizr-2.8.3.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 2,
-		"oAP": "\/build\/js\/vendor\/modernizr-2.8.3.min.js",
-		"oF": 3,
+		"oAP": "\/build\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/kontakt.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/kontakt.html",
@@ -1768,7 +1845,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/main.less": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1777,7 +1854,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/build\/css\/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -1989,77 +2066,77 @@
 		"sU": 0
 		},
 	"\/source\/partner.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/partner.html",
 		"oF": 0
 		},
 	"\/source\/ref_argos.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_argos.html",
 		"oF": 0
 		},
 	"\/source\/ref_cbal.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_cbal.html",
 		"oF": 0
 		},
 	"\/source\/ref_deco-glas.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_deco-glas.html",
 		"oF": 0
 		},
 	"\/source\/ref_dlr.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_dlr.html",
 		"oF": 0
 		},
 	"\/source\/ref_fairtrade.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_fairtrade.html",
 		"oF": 0
 		},
 	"\/source\/ref_gezeitenhaus.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_gezeitenhaus.html",
 		"oF": 0
 		},
 	"\/source\/ref_strahlentherapie.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_strahlentherapie.html",
 		"oF": 0
 		},
 	"\/source\/ref_true-fruts.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/ref_true-fruts.html",
 		"oF": 0
 		},
 	"\/source\/referenzen.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/referenzen.html",
 		"oF": 0
 		},
 	"\/source\/staerken.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/staerken.html",
@@ -2075,7 +2152,7 @@
 	"displayValue": "blue-bear",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/source\/assets\/apple-touch-icon.png",
-	"lastBuiltDate": 526251022
+	"lastBuiltDate": 532271230
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3904,7 +3981,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
