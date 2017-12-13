@@ -16,17 +16,33 @@
       left: 0;
       bottom:20px;
       background: @red;
+
+      @media (max-width:@screen-xs-max) {
+        bottom:10px;
+      }
     }
     figcaption {
       z-index:2;
 
+      img {
+        width:2.3em;
+        height:2.3em;
+        padding:0;
+        margin:0 0 .3em;
+        display:block;
+      }
+
       p span {
         color: @blue;
         background:transparent;
+        padding:0;
       }
     }
   }
 }
+
+
+
 
 .content > section.map {
   padding-bottom:0;
