@@ -45,3 +45,51 @@
     color:@red;
   }
 }
+
+// prev-next-all
+
+.prev-next-all {
+  background:@blue;
+  text-align:center;
+  padding:1em;
+  display:flex;
+
+  a {
+    color:@red;
+    font-weight:700;
+    font-size:1.1em;
+    text-decoration:none;
+    line-height:2;
+    transition:color .2s;
+    &:hover {
+      color:@white;
+    }
+  }
+  .grow {
+    flex-grow:1;
+  }
+  .dont-grow {
+    flex-grow:0;
+  }
+
+  .icon-overview {
+    height:2em;
+    width:2em;
+  }
+  .icon-prev,
+  .icon-next {
+    height:1.4em;
+    width:1.4em;
+    margin:0 0 0 .4em;
+  }
+  .icon-prev {
+    transform: rotate(180deg);
+    margin:0 .4em 0 0;
+  }
+
+  @media (max-width:@screen-xs-max) {
+    span {
+      display:none;
+    }
+  }
+}

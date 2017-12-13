@@ -2043,6 +2043,48 @@ footer ul.partner-logos li.hartgekocht img {
   width: 2em;
   color: #E2353C;
 }
+.prev-next-all {
+  background: #1E1964;
+  text-align: center;
+  padding: 1em;
+  display: flex;
+}
+.prev-next-all a {
+  color: #E2353C;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-decoration: none;
+  line-height: 2;
+  transition: color .2s;
+}
+.prev-next-all a:hover {
+  color: #fff;
+}
+.prev-next-all .grow {
+  flex-grow: 1;
+}
+.prev-next-all .dont-grow {
+  flex-grow: 0;
+}
+.prev-next-all .icon-overview {
+  height: 2em;
+  width: 2em;
+}
+.prev-next-all .icon-prev,
+.prev-next-all .icon-next {
+  height: 1.4em;
+  width: 1.4em;
+  margin: 0 0 0 .4em;
+}
+.prev-next-all .icon-prev {
+  transform: rotate(180deg);
+  margin: 0 .4em 0 0;
+}
+@media (max-width: 767px) {
+  .prev-next-all span {
+    display: none;
+  }
+}
 .cl-client-logos {
   margin: 0 auto;
   max-width: 1440px;

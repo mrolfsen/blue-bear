@@ -1,6 +1,10 @@
 <!-- $site = referenzen -->
 <!-- $description = Die Stärken des blauen Bären -->
 
+<!-- $prev = ref_strahlentherapie.html -->
+<!-- $next = ref_fairtrade.html -->
+
+
 <!-- @import "includes/_header.kit" -->
 
 
@@ -188,8 +192,18 @@
         </section>
 
         <section class="least-gap">
-             <div class="show-all">
-                    <a href="referenzen.html"><svg class="icon-overview"> <use xlink:href="#icon-overview">&nbsp;</use> </svg></a>
+             <div class="prev-next-all">
+                 <a class="dont-grow"  href="<!-- $prev -->">
+                     <svg class="icon-prev">     <use xlink:href="#icon-next">&nbsp;</use></svg>
+                     <span>vorheriges Projekt</span>
+                 </a>
+                 <a class="grow" href="referenzen.html">
+                     <svg class="icon-overview"> <use xlink:href="#icon-overview">&nbsp:</use></svg>
+                 </a>
+                 <a class="dont-grow" href="<!-- $next -->">
+                     <span>n&auml;chstes Projekt</span>
+                     <svg class="icon-next"><use xlink:href="#icon-next">&nbsp;</use></svg>
+                 </a>
              </div>
         </section>
 
