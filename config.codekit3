@@ -343,6 +343,13 @@
 		"oAP": "\/build\/assets\/favicon.ico",
 		"oF": 0
 		},
+	"\/source\/datenschutz.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/datenschutz.html",
+		"oF": 0
+		},
 	"\/source\/img\/baer-jagd.jpg": {
 		"ft": 16384,
 		"iS": 270882,

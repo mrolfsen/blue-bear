@@ -1338,6 +1338,10 @@ p {
     font: 1.4em/1.4 'Source Sans Pro', sans-serif;
   }
 }
+p a {
+  color: #000;
+  text-decoration: underline #E2353C;
+}
 small {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   margin: 2em 0 2em;
