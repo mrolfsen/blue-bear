@@ -1592,8 +1592,20 @@ nav.main-nav ul li a {
   color: #fff;
   padding: .5em .5em;
 }
+nav.main-nav ul li a:after {
+  border-bottom: 3px solid transparent;
+  content: "";
+  margin-top: 5px;
+  display: block;
+}
+nav.main-nav ul li a:hover:after {
+  border-color: #E2353C;
+}
 .light-header nav.main-nav ul li a {
   color: #1E1964;
+}
+.light-header nav.main-nav ul li a:hover:after {
+  border-color: #1E1964;
 }
 /* mark the navi */
 .staerken .main-nav .staerken a,
@@ -1666,6 +1678,9 @@ nav.main-nav ul li a {
     text-decoration: none;
     color: #1E1964;
     padding: .5em .5em;
+  }
+  nav.main-nav ul li a:after {
+    display: none;
   }
   nav.main-nav ul.visible-mobile {
     display: block;
