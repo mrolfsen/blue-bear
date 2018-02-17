@@ -1338,6 +1338,10 @@ p {
     font: 1.4em/1.4 'Source Sans Pro', sans-serif;
   }
 }
+p a {
+  color: #000;
+  text-decoration: underline #E2353C;
+}
 small {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   margin: 2em 0 2em;
@@ -1588,8 +1592,20 @@ nav.main-nav ul li a {
   color: #fff;
   padding: .5em .5em;
 }
+nav.main-nav ul li a:after {
+  border-bottom: 3px solid transparent;
+  content: "";
+  margin-top: 5px;
+  display: block;
+}
+nav.main-nav ul li a:hover:after {
+  border-color: #E2353C;
+}
 .light-header nav.main-nav ul li a {
   color: #1E1964;
+}
+.light-header nav.main-nav ul li a:hover:after {
+  border-color: #1E1964;
 }
 /* mark the navi */
 .staerken .main-nav .staerken a,
@@ -1663,6 +1679,9 @@ nav.main-nav ul li a {
     color: #1E1964;
     padding: .5em .5em;
   }
+  nav.main-nav ul li a:after {
+    display: none;
+  }
   nav.main-nav ul.visible-mobile {
     display: block;
     height: 100%;
@@ -1703,13 +1722,31 @@ footer .logo {
 footer .right-aligned {
   text-align: right;
 }
+@media (max-width: 767px) {
+  footer .right-aligned {
+    text-align: left;
+  }
+}
 footer .social-buttons {
   margin-bottom: 2em;
+}
+@media (max-width: 767px) {
+  footer .social-buttons {
+    margin-left: -0.6em;
+    margin-top: 1.3em;
+  }
 }
 footer nav ul {
   list-style: none;
   margin-bottom: 2em;
   margin-top: 3em;
+}
+@media (max-width: 767px) {
+  footer nav ul {
+    margin-left: -0.4em;
+    padding: 0;
+    margin-top: 1em;
+  }
 }
 footer nav ul li {
   display: inline-block;
@@ -2025,6 +2062,48 @@ footer ul.partner-logos li.hartgekocht img {
   width: 2em;
   color: #E2353C;
 }
+.prev-next-all {
+  background: #1E1964;
+  text-align: center;
+  padding: 1em;
+  display: flex;
+}
+.prev-next-all a {
+  color: #E2353C;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-decoration: none;
+  line-height: 2;
+  transition: color .2s;
+}
+.prev-next-all a:hover {
+  color: #fff;
+}
+.prev-next-all .grow {
+  flex-grow: 1;
+}
+.prev-next-all .dont-grow {
+  flex-grow: 0;
+}
+.prev-next-all .icon-overview {
+  height: 2em;
+  width: 2em;
+}
+.prev-next-all .icon-prev,
+.prev-next-all .icon-next {
+  height: 1.4em;
+  width: 1.4em;
+  margin: 0 0 0 .4em;
+}
+.prev-next-all .icon-prev {
+  transform: rotate(180deg);
+  margin: 0 .4em 0 0;
+}
+@media (max-width: 767px) {
+  .prev-next-all span {
+    display: none;
+  }
+}
 .cl-client-logos {
   margin: 0 auto;
   max-width: 1440px;
@@ -2091,12 +2170,25 @@ footer ul.partner-logos li.hartgekocht img {
   bottom: 20px;
   background: #E2353C;
 }
+@media (max-width: 767px) {
+  .content > section.team-kontakt figure.adress:after {
+    bottom: 10px;
+  }
+}
 .content > section.team-kontakt figure.adress figcaption {
   z-index: 2;
+}
+.content > section.team-kontakt figure.adress figcaption img {
+  width: 2.3em;
+  height: 2.3em;
+  padding: 0;
+  margin: 0 0 .3em;
+  display: block;
 }
 .content > section.team-kontakt figure.adress figcaption p span {
   color: #1E1964;
   background: transparent;
+  padding: 0;
 }
 .content > section.map {
   padding-bottom: 0;

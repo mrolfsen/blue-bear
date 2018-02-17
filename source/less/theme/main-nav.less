@@ -17,6 +17,16 @@ nav.main-nav {
         text-decoration:none;
         color:@white;
         padding:.5em .5em;
+
+        &:after {
+          border-bottom:3px solid transparent;
+          content:"";
+          margin-top:5px;
+          display: block;
+        }
+        &:hover:after {
+          border-color:@red;
+        }
       }
     }
   }
@@ -26,6 +36,10 @@ nav.main-nav {
   nav.main-nav {
     ul li a {
       color: @blue;
+
+      &:hover:after {
+        border-color:@blue;
+      }
     }
   }
 }
@@ -109,6 +123,10 @@ nav.main-nav {
           text-decoration: none;
           color: @blue;
           padding: .5em .5em;
+
+          &:after {
+            display:none;
+          }
         }
       }
       &.visible-mobile {
