@@ -7,20 +7,13 @@
 		"uuidString": "100C10FF-6142-423D-9737-7EE768750804"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
-		"oF": 0
-		},
-	"\/.idea\/.name": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/.idea\/.name",
 		"oF": 0
 		},
 	"\/.idea\/blue-bear.iml": {
@@ -65,18 +58,18 @@
 		"oAP": "\/build\/.idea\/modules.xml",
 		"oF": 1
 		},
-	"\/.idea\/preferred-vcs.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/.idea\/preferred-vcs.xml",
-		"oF": 0
-		},
 	"\/.idea\/vcs.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
+		"oF": 1
+		},
+	"\/.idea\/webServers.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
@@ -1252,7 +1245,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 176011,
+		"iS": 230875,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
@@ -2160,6 +2153,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2723,6 +2717,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
