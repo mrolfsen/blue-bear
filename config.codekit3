@@ -16,6 +16,13 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/.idea\/.name": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/.name",
+		"oF": 0
+		},
 	"\/.idea\/blue-bear.iml": {
 		"cB": 0,
 		"ft": 8192,
@@ -58,18 +65,18 @@
 		"oAP": "\/build\/.idea\/modules.xml",
 		"oF": 1
 		},
+	"\/.idea\/preferred-vcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.idea\/preferred-vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/vcs.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/build\/.idea\/vcs.xml",
-		"oF": 1
-		},
-	"\/.idea\/webServers.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/.idea\/webServers.xml",
 		"oF": 1
 		},
 	"\/.idea\/workspace.xml": {
@@ -1262,7 +1269,7 @@
 		},
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
-		"iS": 230875,
+		"iS": 176011,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
@@ -1645,6 +1652,26 @@
 		"iS": 217442,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/TF_Resp_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/social-images\/derblauebaer-lafamilia-social.jpg": {
+		"ft": 16384,
+		"iS": 624036,
+		"oA": 0,
+		"oAP": "\/build\/img\/social-images\/derblauebaer-lafamilia-social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/social-images\/derblauebaer-social.jpg": {
+		"ft": 16384,
+		"iS": 273400,
+		"oA": 0,
+		"oAP": "\/build\/img\/social-images\/derblauebaer-social.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
