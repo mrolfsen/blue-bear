@@ -1,0 +1,41 @@
+.cl-client-logos {
+  margin:0 auto;
+  max-width:1440px;
+  text-align:center;
+
+  .cl-wrapper {
+    margin-left: -5px;
+    margin-right: -5px;
+    .clearfix;
+
+    .cl-client-logo {
+      position: relative;
+      width: 19%;
+      overflow: hidden;
+      height: auto;
+      border: 5px solid #fff;
+      //float: left;
+      color:#777;
+      display:inline-block;
+
+
+      @media (max-width: @screen-sm-max) {
+        width: 33%;
+      }
+      @media (max-width: @screen-xs-max) {
+        width: 32% !important;
+      }
+    }
+
+    .svg-icon {
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    .svg-icon-direct {
+      max-width: 100%;
+      width:198px;
+      height:auto;
+      margin-bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,153 @@
+<!-- $site = kontakt -->
+<!-- $description = Die Stärken des blauen Bären -->
+
+<!-- @import "includes/_header.kit" -->
+
+
+
+<div class="the-wrapper">
+    <header>
+
+        <div class="hero">
+            <div class="logo white">
+                <a href="index.html">
+                    <!-- @import "includes/_logo.svg" -->
+                </a>
+            </div>
+            <nav class="main-nav">
+                <!-- @import "includes/_main-nav.kit" -->
+            </nav>
+            <h1><span>Bär to</span><br>Bär</h1>
+        </div>
+    </header>
+
+
+
+    <!--
+    ================================
+    Begin Content ==================
+    ================================
+    -->
+
+    <div class="content" role="main">
+
+
+        <section class="ref-images ref-overview team-kontakt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="mailto:y.gruenenwald@derblauebaer.de">
+                            <figure>
+                                <img src="img/yvonne-gruenenwald.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <span>Yvonne Grünenwald</span><br>
+                                        <span>y.gruenenwald@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:k.rolfsen@derblauebaer.de">
+                            <figure>
+                                <img src="img/kathrin-rolfsen.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <span>Kathrin Rolfsen</span><br>
+                                        <span>k.rolfsen@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:k.bloemeke@derblauebaer.de">
+                            <figure>
+                                <img src="img/klaus-bloemeke.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <span>Klaus Blömeke</span><br>
+                                        <span>k.bloemeke@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:m.rolfsen@derblauebaer.de">
+                            <figure>
+                                <img src="img/michael-rolfsen.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <span>Michael Rolfsen</span><br>
+                                        <span>m.rolfsen@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:m.guenther@derblauebaer.de">
+                            <figure>
+                                <img src="img/matthias-guenther.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <span>Matthias Günther</span><br>
+                                        <span>m.guenther@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:kontakt@derblauebaer.de">
+                            <figure class="adress">
+                                <img src="img/yvonne-gruenenwald.jpg" alt="">
+                                <figcaption>
+                                    <p>
+                                        <img src="img/baer-solitaer.svg" alt="Der blaue Baer Icon">
+                                        <span>Der blaue Bär<br>
+                                        Poppelsdorfer Allee 58<br>
+                                        53115 Bonn<br>
+                                        Telefon: +49 228 6088 7237<br>
+                                        kontakt@derblauebaer.de</span><br>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="map" id="googleMap">
+            <script>
+                function initMap() {
+                    console.log("init");
+                    var image = 'img/map-marker.svg';
+                    //var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+                    var blauerbaer = {lat: 50.7286071, lng: 7.0960195};
+                    var map = new google.maps.Map(document.getElementById('googleMap'), {
+                        zoom: 15,
+                        scrollwheel: false,
+                        center: blauerbaer
+                    });
+                    var marker = new google.maps.Marker({
+                        position: blauerbaer,
+                        map: map,
+                        icon: image
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPM5kStrWuvKdQO_ZSY4z6JFM8l44IGI&callback=initMap">
+            </script>
+        </section>
+
+    </div> <!-- /content -->
+</div> <!-- /the-Wrapper -->
+
+
+<!-- @import "includes/_footer.kit" -->

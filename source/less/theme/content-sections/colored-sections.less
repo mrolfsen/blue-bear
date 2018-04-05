@@ -1,0 +1,92 @@
+// BLUE background
+// w/ copy-text section
+
+.blue-section {
+  background:@blue;
+
+  h2 {
+    color:@red;
+  }
+  p {
+    color:@white;
+  }
+  blockquote {
+    border-color: @red;
+
+    p {
+      color:@red;
+    }
+  }
+  small {
+    color:@white;
+  }
+  a.btn {
+    color:@red;
+    border-color:@red;
+
+    &:hover {
+      color:@white;
+      background:@red;
+    }
+  }
+
+
+  // das Zitat auf der Startseite
+
+  &.weisheit {
+    text-align:center;
+    padding-bottom:7em;
+    h2 {
+      color:@white;
+      position: relative;
+
+      &:after {
+        content:"";
+        width:2em;
+        height:0;
+        position: absolute;
+        border-bottom:5px solid @red;
+        bottom: -1em;
+        left: 50%;
+        margin-left: -1em;
+      }
+    }
+  }
+}
+
+// GRAY background
+// w/ copy-text section (almost identical to white)
+
+.gray-section {
+  background: @gray-light;
+}
+
+// RED background
+// w/ copy-text section
+
+.red-section {
+  background:@red;
+
+  p {
+    color:@white;
+  }
+  blockquote {
+    border-color: @blue;
+
+    p {
+      color:@blue;
+    }
+  }
+  small {
+    color:@white;
+  }
+  a.btn {
+    color:@blue;
+    border-color:@blue;
+
+    &:hover {
+      color:@white;
+      background:@blue;
+    }
+  }
+}

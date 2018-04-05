@@ -1,0 +1,130 @@
+// typographie
+
+body {
+  font-size:12px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (min-width:@screen-md-min) {
+    font-size:16px;
+  }
+}
+
+h1 {}
+
+h2 {
+  font:700 3.6em/1.2 @serif-font;
+  color:@blue;
+
+  @media (max-width:@screen-xs-max) {
+    font:700 3.0em/1.2 @serif-font;
+  }
+}
+
+h3 {}
+
+h4 {
+  font:700 1.8em/1.4 @sans-serif-font;
+  color:@red;
+  margin-bottom:-.8em;
+}
+
+dl {
+  display:flex;
+  flex-direction:row;
+  margin:.2em 0 0.3em 0;
+}
+dt {
+  width:25%;
+}
+dd {
+  width:65%;
+}
+
+
+p {
+  font:1.8em/1.4 @sans-serif-font;
+
+  @media (max-width: @screen-xs-max) {
+    font:1.4em/1.4 @sans-serif-font;
+  }
+
+  a {
+    color:#000;
+    text-decoration:underline @red;
+  }
+}
+
+small {
+  font:500 1.1em/1.4 @sans-serif-font;
+  margin:2em 0 2em;
+  display:block;
+}
+
+blockquote {
+  border-left:4px solid @red;
+  padding-left:1.5em;
+  margin:0;
+
+  p {
+    font:600 1.2em/1.4 @sans-serif-font;
+    color:@red;
+  }
+}
+
+a.btn {
+  font:700 1.3em/1.4 @sans-serif-font;
+  color:@red;
+  padding:.6em 3.2em;
+  border:2px solid @red;
+  text-decoration:none;
+  display: inline-block;
+  margin: 1em 0 2em;
+  background:transparent;
+  transition:all .2s;
+
+  &:hover {
+    color:@white;
+    background:@red;
+  }
+}
+
+.content section ul {
+  margin:2em 0 3em;
+  padding:0;
+  list-style:none;
+
+  li {
+    margin: 2px 0;
+    padding: 0.5em 0 .5em 1.2em;
+    display:inline-block;
+    //background: @red;
+    //color:@blue;
+    font:500 1.3em/1.4 @sans-serif-font;
+    position: relative;
+
+    &:before {
+      content:"•";
+      font:800 1.6em/1.4 @sans-serif-font;
+      color:@red;
+      position: absolute;
+      top: -0.02em;
+      left: 0.1em;
+    }
+  }
+}
+.content section ul.big-ul {
+  margin:1em 0 3em;
+  padding:0;
+  list-style:none;
+
+  li {
+    margin: 2px 0;
+    padding: 0.5em 0.8em;
+    display:inline-block;
+    background: @red;
+    color:@blue;
+    font:700 1.8em/1 @sans-serif-font;
+  }
+}

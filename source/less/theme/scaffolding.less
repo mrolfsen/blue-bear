@@ -1,0 +1,64 @@
+// some basic rules and helperclasses
+
+
+// applies to all "section" elements, as well as header and footer
+
+
+.padded-container {
+
+  border: 15px solid #fff;
+  border-top:0;
+
+  @media (max-width: @screen-xs-max) {
+    border: 10px solid #fff;
+    border-top:0;
+  }
+}
+
+.content > section {
+  .padded-container;
+  padding-top:3em;
+  padding-bottom:5em;
+
+  &.lesser-gap {
+    padding-top:1em;
+    padding-bottom:2em;
+  }
+  &.least-gap {
+    padding-top:0;
+    padding-bottom:3em;
+    margin-top:-2em;
+  }
+  &.no-gap {
+    padding-top:1em;
+    padding-bottom:0em;
+  }
+}
+
+@media (max-width:@screen-xs-max) {
+  .content > section {
+    padding-top:0;
+    padding-bottom:2em;
+
+    &.lesser-gap {
+      padding-top:0em;
+      padding-bottom:1em;
+    }
+
+    &.least-gap {
+      padding-top:0;
+      padding-bottom:1em;
+      margin-top:-2em;
+    }
+  }
+}
+
+
+
+// img's
+
+img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}

@@ -7,6 +7,7 @@
 .Spotlight-V100
 .Trashes
 nbprojekt/
-*.codekit
 *.esproj/
+config.codekit3
 /godot/link_list_*.js
+*.codekit3
