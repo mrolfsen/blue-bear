@@ -7,7 +7,7 @@
 		"uuidString": "100C10FF-6142-423D-9737-7EE768750804"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -353,6 +353,7 @@
 	"\/source\/img\/baer-jagd.jpg": {
 		"ft": 16384,
 		"iS": 270882,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer-jagd.jpg",
 		"oF": 0,
@@ -373,6 +374,7 @@
 	"\/source\/img\/baer.jpg": {
 		"ft": 16384,
 		"iS": 330506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/baer.jpg",
 		"oF": 0,
@@ -634,6 +636,7 @@
 	"\/source\/img\/kathrin-rolfsen.jpg": {
 		"ft": 16384,
 		"iS": 727693,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/kathrin-rolfsen.jpg",
 		"oF": 0,
@@ -644,6 +647,7 @@
 	"\/source\/img\/kathrin.jpg": {
 		"ft": 16384,
 		"iS": 129145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/kathrin.jpg",
 		"oF": 0,
@@ -654,6 +658,7 @@
 	"\/source\/img\/klaus-bloemeke.jpg": {
 		"ft": 16384,
 		"iS": 1102635,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/klaus-bloemeke.jpg",
 		"oF": 0,
@@ -664,6 +669,7 @@
 	"\/source\/img\/klaus.jpg": {
 		"ft": 16384,
 		"iS": 78627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/klaus.jpg",
 		"oF": 0,
@@ -674,6 +680,7 @@
 	"\/source\/img\/lafamilia-landscape-fine.jpg": {
 		"ft": 16384,
 		"iS": 1904285,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/lafamilia-landscape-fine.jpg",
 		"oF": 0,
@@ -684,6 +691,7 @@
 	"\/source\/img\/lafamilia-portrait-fine.jpg": {
 		"ft": 16384,
 		"iS": 1164117,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/lafamilia-portrait-fine.jpg",
 		"oF": 0,
@@ -714,6 +722,7 @@
 	"\/source\/img\/matthias-guenther.jpg": {
 		"ft": 16384,
 		"iS": 961506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/matthias-guenther.jpg",
 		"oF": 0,
@@ -724,6 +733,7 @@
 	"\/source\/img\/matthias.jpg": {
 		"ft": 16384,
 		"iS": 79627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/matthias.jpg",
 		"oF": 0,
@@ -734,6 +744,7 @@
 	"\/source\/img\/michael-rolfsen.jpg": {
 		"ft": 16384,
 		"iS": 945506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/michael-rolfsen.jpg",
 		"oF": 0,
@@ -744,6 +755,7 @@
 	"\/source\/img\/michael.jpg": {
 		"ft": 16384,
 		"iS": 77461,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/michael.jpg",
 		"oF": 0,
@@ -784,6 +796,7 @@
 	"\/source\/img\/partner.jpg": {
 		"ft": 16384,
 		"iS": 619053,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/partner.jpg",
 		"oF": 0,
@@ -794,6 +807,7 @@
 	"\/source\/img\/ref_argos\/Argos_02.jpg": {
 		"ft": 16384,
 		"iS": 334894,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_02.jpg",
 		"oF": 0,
@@ -804,6 +818,7 @@
 	"\/source\/img\/ref_argos\/Argos_4er_Compo_1.jpg": {
 		"ft": 16384,
 		"iS": 352841,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_4er_Compo_1.jpg",
 		"oF": 0,
@@ -814,6 +829,7 @@
 	"\/source\/img\/ref_argos\/Argos_4er_Compo_2.jpg": {
 		"ft": 16384,
 		"iS": 193783,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_4er_Compo_2.jpg",
 		"oF": 0,
@@ -824,6 +840,7 @@
 	"\/source\/img\/ref_argos\/Argos_group.jpg": {
 		"ft": 16384,
 		"iS": 251230,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_group.jpg",
 		"oF": 0,
@@ -834,6 +851,7 @@
 	"\/source\/img\/ref_argos\/Argos_Logo.jpg": {
 		"ft": 16384,
 		"iS": 177240,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_Logo.jpg",
 		"oF": 0,
@@ -844,6 +862,7 @@
 	"\/source\/img\/ref_argos\/Argos_PP.jpg": {
 		"ft": 16384,
 		"iS": 132682,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_PP.jpg",
 		"oF": 0,
@@ -854,6 +873,7 @@
 	"\/source\/img\/ref_argos\/Argos_Print_01.jpg": {
 		"ft": 16384,
 		"iS": 253423,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_Print_01.jpg",
 		"oF": 0,
@@ -864,6 +884,7 @@
 	"\/source\/img\/ref_argos\/Argos_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 279960,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_argos\/Argos_Resp_01.jpg",
 		"oF": 0,
@@ -890,6 +911,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Logo_komplett.jpg": {
 		"ft": 16384,
 		"iS": 37893,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Logo_komplett.jpg",
 		"oF": 0,
@@ -900,6 +922,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Print1.jpg": {
 		"ft": 16384,
 		"iS": 281043,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print1.jpg",
 		"oF": 0,
@@ -910,6 +933,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Print2.jpg": {
 		"ft": 16384,
 		"iS": 301203,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print2.jpg",
 		"oF": 0,
@@ -920,6 +944,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Print3.jpg": {
 		"ft": 16384,
 		"iS": 136853,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print3.jpg",
 		"oF": 0,
@@ -930,6 +955,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Print4.jpg": {
 		"ft": 16384,
 		"iS": 213791,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print4.jpg",
 		"oF": 0,
@@ -940,6 +966,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Print5.jpg": {
 		"ft": 16384,
 		"iS": 128282,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Print5.jpg",
 		"oF": 0,
@@ -950,6 +977,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 225309,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Resp_01.jpg",
 		"oF": 0,
@@ -960,6 +988,7 @@
 	"\/source\/img\/ref_cbal\/CBAL_Web.jpg": {
 		"ft": 16384,
 		"iS": 243975,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/CBAL_Web.jpg",
 		"oF": 0,
@@ -970,6 +999,7 @@
 	"\/source\/img\/ref_cbal\/DSCF2243_Ret.jpg": {
 		"ft": 16384,
 		"iS": 164654,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_cbal\/DSCF2243_Ret.jpg",
 		"oF": 0,
@@ -980,6 +1010,7 @@
 	"\/source\/img\/ref_deco-glas\/decoglas_okt15_04Lres.jpg": {
 		"ft": 16384,
 		"iS": 278102,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_04Lres.jpg",
 		"oF": 0,
@@ -990,6 +1021,7 @@
 	"\/source\/img\/ref_deco-glas\/decoglas_okt15_39Lres.jpg": {
 		"ft": 16384,
 		"iS": 220619,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_39Lres.jpg",
 		"oF": 0,
@@ -1000,6 +1032,7 @@
 	"\/source\/img\/ref_deco-glas\/decoglas_okt15_46Lres.jpg": {
 		"ft": 16384,
 		"iS": 297667,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_46Lres.jpg",
 		"oF": 0,
@@ -1010,6 +1043,7 @@
 	"\/source\/img\/ref_deco-glas\/decoglas_okt15_62Lres.jpg": {
 		"ft": 16384,
 		"iS": 188664,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/decoglas_okt15_62Lres.jpg",
 		"oF": 0,
@@ -1020,6 +1054,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_DSCF2214.jpg": {
 		"ft": 16384,
 		"iS": 220583,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_DSCF2214.jpg",
 		"oF": 0,
@@ -1030,6 +1065,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_Fullscreen_01.jpg": {
 		"ft": 16384,
 		"iS": 326775,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Fullscreen_01.jpg",
 		"oF": 0,
@@ -1040,6 +1076,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_PdP.jpg": {
 		"ft": 16384,
 		"iS": 57085,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_PdP.jpg",
 		"oF": 0,
@@ -1050,6 +1087,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 263141,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_01.jpg",
 		"oF": 0,
@@ -1060,6 +1098,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_Resp_02.jpg": {
 		"ft": 16384,
 		"iS": 124170,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_02.jpg",
 		"oF": 0,
@@ -1070,6 +1109,7 @@
 	"\/source\/img\/ref_deco-glas\/DG_Resp_03.jpg": {
 		"ft": 16384,
 		"iS": 132210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/DG_Resp_03.jpg",
 		"oF": 0,
@@ -1080,6 +1120,7 @@
 	"\/source\/img\/ref_deco-glas\/F130901605_Phonehand.jpg": {
 		"ft": 16384,
 		"iS": 180063,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_deco-glas\/F130901605_Phonehand.jpg",
 		"oF": 0,
@@ -1090,6 +1131,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1386R.jpg": {
 		"ft": 16384,
 		"iS": 211170,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1386R.jpg",
 		"oF": 0,
@@ -1100,6 +1142,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1412R.jpg": {
 		"ft": 16384,
 		"iS": 237794,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1412R.jpg",
 		"oF": 0,
@@ -1110,6 +1153,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1441R.jpg": {
 		"ft": 16384,
 		"iS": 322855,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1441R.jpg",
 		"oF": 0,
@@ -1120,6 +1164,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1447R.jpg": {
 		"ft": 16384,
 		"iS": 362371,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1447R.jpg",
 		"oF": 0,
@@ -1130,6 +1175,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1454R.jpg": {
 		"ft": 16384,
 		"iS": 287468,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1454R.jpg",
 		"oF": 0,
@@ -1140,6 +1186,7 @@
 	"\/source\/img\/ref_dlr\/DLR_DSCF1485R.jpg": {
 		"ft": 16384,
 		"iS": 109664,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_DSCF1485R.jpg",
 		"oF": 0,
@@ -1150,6 +1197,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Pgrey_01.jpg": {
 		"ft": 16384,
 		"iS": 51766,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_01.jpg",
 		"oF": 0,
@@ -1160,6 +1208,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Pgrey_02.jpg": {
 		"ft": 16384,
 		"iS": 127630,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_02.jpg",
 		"oF": 0,
@@ -1170,6 +1219,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Pgrey_03.jpg": {
 		"ft": 16384,
 		"iS": 143800,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_03.jpg",
 		"oF": 0,
@@ -1180,6 +1230,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Pgrey_04.jpg": {
 		"ft": 16384,
 		"iS": 332024,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Pgrey_04.jpg",
 		"oF": 0,
@@ -1190,6 +1241,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Print_01.jpg": {
 		"ft": 16384,
 		"iS": 325943,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Print_01.jpg",
 		"oF": 0,
@@ -1200,6 +1252,7 @@
 	"\/source\/img\/ref_dlr\/DLR_Print_02.jpg": {
 		"ft": 16384,
 		"iS": 361772,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_dlr\/DLR_Print_02.jpg",
 		"oF": 0,
@@ -1210,6 +1263,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9853R.jpg": {
 		"ft": 16384,
 		"iS": 280738,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9853R.jpg",
 		"oF": 0,
@@ -1220,6 +1274,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9893R.jpg": {
 		"ft": 16384,
 		"iS": 288477,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9893R.jpg",
 		"oF": 0,
@@ -1230,6 +1285,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9926R.jpg": {
 		"ft": 16384,
 		"iS": 178019,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9926R.jpg",
 		"oF": 0,
@@ -1240,6 +1296,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9981R.jpg": {
 		"ft": 16384,
 		"iS": 275205,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9981R.jpg",
 		"oF": 0,
@@ -1250,6 +1307,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9987R.jpg": {
 		"ft": 16384,
 		"iS": 166697,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9987R.jpg",
 		"oF": 0,
@@ -1260,6 +1318,7 @@
 	"\/source\/img\/ref_fairtrade\/DSCF9989R.jpg": {
 		"ft": 16384,
 		"iS": 326332,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/DSCF9989R.jpg",
 		"oF": 0,
@@ -1270,6 +1329,7 @@
 	"\/source\/img\/ref_fairtrade\/Fairtrade_Maske.jpg": {
 		"ft": 16384,
 		"iS": 176011,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_Maske.jpg",
 		"oF": 0,
@@ -1280,6 +1340,7 @@
 	"\/source\/img\/ref_fairtrade\/Fairtrade_MG_5678.jpg": {
 		"ft": 16384,
 		"iS": 347751,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/Fairtrade_MG_5678.jpg",
 		"oF": 0,
@@ -1290,6 +1351,7 @@
 	"\/source\/img\/ref_fairtrade\/FtD_DSCF2178.jpg": {
 		"ft": 16384,
 		"iS": 247040,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/FtD_DSCF2178.jpg",
 		"oF": 0,
@@ -1300,6 +1362,7 @@
 	"\/source\/img\/ref_fairtrade\/FtD_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 243224,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_fairtrade\/FtD_Resp_01.jpg",
 		"oF": 0,
@@ -1310,6 +1373,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/DSCF2203_Ret.jpg": {
 		"ft": 16384,
 		"iS": 286772,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/DSCF2203_Ret.jpg",
 		"oF": 0,
@@ -1320,6 +1384,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/DSCF8352_Ret.jpg": {
 		"ft": 16384,
 		"iS": 302790,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/DSCF8352_Ret.jpg",
 		"oF": 0,
@@ -1330,6 +1395,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/DSCF8403_Ret.jpg": {
 		"ft": 16384,
 		"iS": 267156,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/DSCF8403_Ret.jpg",
 		"oF": 0,
@@ -1340,6 +1406,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_02.jpg": {
 		"ft": 16384,
 		"iS": 390868,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_02.jpg",
 		"oF": 0,
@@ -1350,6 +1417,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_26090.jpg": {
 		"ft": 16384,
 		"iS": 853601,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_26090.jpg",
 		"oF": 0,
@@ -1360,6 +1428,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_26120.jpg": {
 		"ft": 16384,
 		"iS": 919573,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_26120.jpg",
 		"oF": 0,
@@ -1370,6 +1439,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_26575.jpg": {
 		"ft": 16384,
 		"iS": 643149,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_26575.jpg",
 		"oF": 0,
@@ -1380,6 +1450,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_5502.jpg": {
 		"ft": 16384,
 		"iS": 352631,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_5502.jpg",
 		"oF": 0,
@@ -1390,6 +1461,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_844.jpg": {
 		"ft": 16384,
 		"iS": 259833,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_844.jpg",
 		"oF": 0,
@@ -1400,6 +1472,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_Compo.jpg": {
 		"ft": 16384,
 		"iS": 283946,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_Compo.jpg",
 		"oF": 0,
@@ -1410,6 +1483,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 305396,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_Resp_01.jpg",
 		"oF": 0,
@@ -1420,6 +1494,7 @@
 	"\/source\/img\/ref_gezeitenhaus\/GEZ_Resp_02.jpg": {
 		"ft": 16384,
 		"iS": 334759,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_gezeitenhaus\/GEZ_Resp_02.jpg",
 		"oF": 0,
@@ -1430,6 +1505,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_argos.jpg": {
 		"ft": 16384,
 		"iS": 136344,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_argos.jpg",
 		"oF": 0,
@@ -1440,6 +1516,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas-big.jpg": {
 		"ft": 16384,
 		"iS": 433832,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas-big.jpg",
 		"oF": 0,
@@ -1450,6 +1527,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_deco-glas.jpg": {
 		"ft": 16384,
 		"iS": 122785,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_deco-glas.jpg",
 		"oF": 0,
@@ -1460,6 +1538,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_dlr.jpg": {
 		"ft": 16384,
 		"iS": 274021,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_dlr.jpg",
 		"oF": 0,
@@ -1470,6 +1549,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_epag.jpg": {
 		"ft": 16384,
 		"iS": 80321,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_epag.jpg",
 		"oF": 0,
@@ -1480,6 +1560,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_fairtrade.jpg": {
 		"ft": 16384,
 		"iS": 198726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_fairtrade.jpg",
 		"oF": 0,
@@ -1490,6 +1571,7 @@
 	"\/source\/img\/ref_overview\/ref_overview_true-fruits.jpg": {
 		"ft": 16384,
 		"iS": 91419,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_overview\/ref_overview_true-fruits.jpg",
 		"oF": 0,
@@ -1500,6 +1582,7 @@
 	"\/source\/img\/ref_strahlentherapie\/StBRS_02.jpg": {
 		"ft": 16384,
 		"iS": 293584,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_02.jpg",
 		"oF": 0,
@@ -1510,6 +1593,7 @@
 	"\/source\/img\/ref_strahlentherapie\/StBRS_04.jpg": {
 		"ft": 16384,
 		"iS": 157053,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_04.jpg",
 		"oF": 0,
@@ -1520,6 +1604,7 @@
 	"\/source\/img\/ref_strahlentherapie\/StBRS_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 342861,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_Resp_01.jpg",
 		"oF": 0,
@@ -1530,6 +1615,7 @@
 	"\/source\/img\/ref_strahlentherapie\/StBRS_Start.jpg": {
 		"ft": 16384,
 		"iS": 226892,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/StBRS_Start.jpg",
 		"oF": 0,
@@ -1540,6 +1626,7 @@
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-015.jpg": {
 		"ft": 16384,
 		"iS": 223673,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-015.jpg",
 		"oF": 0,
@@ -1550,6 +1637,7 @@
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-114.jpg": {
 		"ft": 16384,
 		"iS": 225696,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BG15-114.jpg",
 		"oF": 0,
@@ -1560,6 +1648,7 @@
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-004.jpg": {
 		"ft": 16384,
 		"iS": 252505,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-004.jpg",
 		"oF": 0,
@@ -1570,6 +1659,7 @@
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-053.jpg": {
 		"ft": 16384,
 		"iS": 280671,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Praxis-BN15-053.jpg",
 		"oF": 0,
@@ -1580,6 +1670,7 @@
 	"\/source\/img\/ref_strahlentherapie\/Strahlentherapie-Team-TR15-130.jpg": {
 		"ft": 16384,
 		"iS": 257219,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_strahlentherapie\/Strahlentherapie-Team-TR15-130.jpg",
 		"oF": 0,
@@ -1590,6 +1681,7 @@
 	"\/source\/img\/ref_true-fruits\/DSCF2331_Ret.jpg": {
 		"ft": 16384,
 		"iS": 190317,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2331_Ret.jpg",
 		"oF": 0,
@@ -1600,6 +1692,7 @@
 	"\/source\/img\/ref_true-fruits\/DSCF2355_Ret.jpg": {
 		"ft": 16384,
 		"iS": 458824,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2355_Ret.jpg",
 		"oF": 0,
@@ -1610,6 +1703,7 @@
 	"\/source\/img\/ref_true-fruits\/DSCF2357_Ret.jpg": {
 		"ft": 16384,
 		"iS": 280805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/DSCF2357_Ret.jpg",
 		"oF": 0,
@@ -1620,6 +1714,7 @@
 	"\/source\/img\/ref_true-fruits\/F1629649_Aepfel.jpg": {
 		"ft": 16384,
 		"iS": 463753,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/F1629649_Aepfel.jpg",
 		"oF": 0,
@@ -1630,6 +1725,7 @@
 	"\/source\/img\/ref_true-fruits\/F4420801_Apfelscheibe.jpg": {
 		"ft": 16384,
 		"iS": 207166,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/F4420801_Apfelscheibe.jpg",
 		"oF": 0,
@@ -1640,6 +1736,7 @@
 	"\/source\/img\/ref_true-fruits\/TF_02.jpg": {
 		"ft": 16384,
 		"iS": 237987,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/TF_02.jpg",
 		"oF": 0,
@@ -1650,6 +1747,7 @@
 	"\/source\/img\/ref_true-fruits\/TF_Resp_01.jpg": {
 		"ft": 16384,
 		"iS": 217442,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/ref_true-fruits\/TF_Resp_01.jpg",
 		"oF": 0,
@@ -1660,6 +1758,7 @@
 	"\/source\/img\/social-images\/derblauebaer-lafamilia-social.jpg": {
 		"ft": 16384,
 		"iS": 624036,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/social-images\/derblauebaer-lafamilia-social.jpg",
 		"oF": 0,
@@ -1670,6 +1769,7 @@
 	"\/source\/img\/social-images\/derblauebaer-social.jpg": {
 		"ft": 16384,
 		"iS": 273400,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/social-images\/derblauebaer-social.jpg",
 		"oF": 0,
@@ -1680,6 +1780,7 @@
 	"\/source\/img\/yvonne-gruenenwald.jpg": {
 		"ft": 16384,
 		"iS": 1058679,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/yvonne-gruenenwald.jpg",
 		"oF": 0,
@@ -1690,6 +1791,7 @@
 	"\/source\/img\/yvonne.jpg": {
 		"ft": 16384,
 		"iS": 63246,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/yvonne.jpg",
 		"oF": 0,
@@ -2189,6 +2291,7 @@
 	"displayValue": "blue-bear",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/source\/assets\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 544622128
 	},
 "projectSettings": {
@@ -3992,6 +4095,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
