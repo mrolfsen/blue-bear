@@ -1356,6 +1356,16 @@ blockquote p {
   font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
 }
+@media (min-width: 768px) {
+  .stickyquote {
+    display: flex;
+    flex-direction: row;
+  }
+  .stickyquote blockquote {
+    position: sticky;
+    top: 1em;
+  }
+}
 a.btn {
   font: 700 1.3em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;

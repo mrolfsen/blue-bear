@@ -73,6 +73,21 @@ blockquote {
   }
 }
 
+// a special: the stickyquote if not mobile
+
+@media (min-width:@screen-sm-min) {
+  .stickyquote {
+    display:flex;
+    flex-direction:row;
+
+    blockquote {
+      position: sticky;
+      top:1em;
+    }
+  }
+}
+
+
 a.btn {
   font:700 1.3em/1.4 @sans-serif-font;
   color:@red;
