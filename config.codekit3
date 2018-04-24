@@ -2292,7 +2292,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/source\/assets\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 544622128
+	"lastBuiltDate": 546252402
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4161,7 +4161,7 @@
 		"enableSmartQuotes": 1,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
