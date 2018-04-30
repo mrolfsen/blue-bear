@@ -1314,6 +1314,10 @@ h2 {
     font: 700 3em/1.2 'Playfair Display', serif;
   }
 }
+h3 {
+  font: 700 1.9em/1.4 'Source Sans Pro', sans-serif;
+  margin-bottom: -0.8em;
+}
 h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
