@@ -1345,6 +1345,7 @@ p {
 p a {
   color: #000;
   text-decoration: underline #E2353C;
+  cursor: pointer;
 }
 small {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
