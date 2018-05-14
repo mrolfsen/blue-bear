@@ -8,10 +8,10 @@
     <meta name="description" content="Der blaue Bär - Impressum">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=f5c687d20e3cfdde2d8efa4384906b9f">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=c15946680cc3a1b9b65f06a04a9ca005" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=25aea4f1a518fd749db877b12468602e" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=08f6b454d2990f8719d8134a430b2dab">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=1097deac7199bf09d75c177e9ec08fbb">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=2e5949a32ba7c9b947d016e0a47bf0bf" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=86079ee2a349e50c8b32d00aad2463f7" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=8745f357db633be5e1065a115773afc4">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=34baffa67e7c76abf992bba346c17609">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=30a1748ea906bf0dd918eeb72505928a">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=497f0bbdc1ed651b05435d4ccb439cc6"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=0dcb739ea2a2514f382d8640db105dac"></script>
 </head>
 <body class="impressum">
 
@@ -305,11 +305,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547742669"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=bc6941b3ccae272b66975ce622b50a9f"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989864"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=19212e86b1be10427257ef213a81c520"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=12cc19bc9cc0e0521d8fb9ff338b5704"></script>
-<script src="js/min/main-min.js?ckcachebust=c5d32e64ef92adc57cd8e66d659d1958"></script>
+<script src="js/min/plugins-min.js?ckcachebust=68e6c93c8a70d8972511ad6734577e92"></script>
+<script src="js/min/main-min.js?ckcachebust=6ddfdd1fb83486bf1db7b2d2e03a48cd"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -317,13 +317,155 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547742669"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989864"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-580135-62', { 'anonymize_ip': true });
 
+</script>
+
+
+<!-- Cookie Warning banner (self sufficient) -->
+
+<style>
+    <!--
+
+    /* remove after tested successful */
+    body {
+        padding:0;
+        margin:0;
+    }
+    body.banner-visible footer {
+        padding-bottom:7em;
+    }
+    .cwb {
+        position: fixed;
+        bottom:0;
+        background:rgba(0,0,0,0.8);
+        width:100%;
+        z-index: 99999;
+        font-family: Helvetica, Arial, sans-serif;
+        display:none;
+    }
+    .cwb-wrapper {
+        padding:15px;
+        max-width:1280px;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+    }
+    .cwb-text {
+        flex-grow:1;
+        flex-shrink:1;
+        padding-right:15px;
+    }
+    .cwb-text p {
+        font-size:14px;
+        line-height:1.4;
+        color:#fff;
+        margin:0 0 10px 0;
+        padding:0;
+    }
+    .cwb-text h1 {
+        font-size:18px;
+        line-height:1.4;
+        color:#fff;
+        margin:10px 0;
+        padding:0;
+    }
+    .cwb-button {
+        width:180px;
+        flex-shrink:0;
+    }
+    .cwb-button button {
+        border:1px solid #fff;
+        margin:7px 0;
+        padding:6px 14px;
+        font-size:16px;
+        font-weight:bold;
+        color:#fff;
+        background:transparent;
+    }
+    .cwb-button button:hover {
+        background:#fff;
+        color:#000;
+    }
+    @media (max-width:768px) {
+        .cwb-wrapper {
+            flex-direction:column;
+        }
+        .cwb-text {
+            padding-right:0;
+        }
+        .cwb-text p {
+            font-size:12px;
+        }
+        .cwb-text h1 {
+            font-size:16px;
+        }
+        .cwb-button {
+            width:180px;
+            flex-shrink:0;
+        }
+        .cwb-button button {
+            font-size:14px;
+        }
+    }
+
+    /*
+        don't show cookie warning (user acknoledged already)
+        add ".cookies-accepted" class to body
+     */
+    .cwb-cookies-accepted .cwb {
+        display:none;
+    }
+
+    -->
+</style>
+
+
+<div class="cwb cookie-warning-banner">
+    <div class="cwb-wrapper">
+        <div class="cwb-text">
+            <h1>Einwilligungserkl&auml;rung</h1>
+            <p>Diese Website verwendet Cookies. Durch die Nutzung unserer Services erklären Sie sich damit einverstanden, dass wir Cookies setzen.</p>
+        </div>
+        <div class="cwb-button">
+            <button id="banner-confirm-button">Einverstanden</button>
+        </div>
+    </div>
+</div>
+
+<!-- EOF Cookie Warning -->
+
+
+<!--- To the Bottom -->
+<script>
+    $( document ).ready(function() {
+        var allCookies = document.cookie.split('; ');
+        var mycookies = Array();
+
+        for ( var i = 0; i < allCookies.length; i++) {
+            var cookiePair = allCookies[i].split('=');
+            mycookies[cookiePair[0]] = cookiePair[1];
+        }
+        if (!mycookies['banner-clicked'])
+        {
+            $('.cwb').show();
+            $('body').addClass("banner-visible");
+        }
+
+        $("#banner-confirm-button").click(function(){
+            var d = new Date();
+            d.setTime(d.getTime() + 2*365*24*60*60*1000); // in milliseconds
+            document.cookie="banner-clicked=true; expires="+d.toGMTString()+"; path=/";
+            $('.cwb').hide();
+            $('body').removeClass("banner-visible");
+        })
+    });
 </script>
 
 

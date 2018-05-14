@@ -10,10 +10,10 @@
     <meta name="description" content="Referenz: CBA Lab e.V.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=389b5ca415b9b2a87858a1de6ca2da46">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=a30419d50441462bd0bbb4e26b3d221c" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=1cd359c1a0158ad4a66f4d49fcad7566" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=f1f298518a044f20ca3ee75421d04f28">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=2f5666f47670446031b75fc5f2610d3e">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=c56a1032069a8290071cda836f9dc145" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=83d55a29fc2ea579b0d3a825c495f08e" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=1935d43afb48f24f91873cce83baf82a">
 
     <!-- OG:tags -->
 
@@ -24,9 +24,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=610a2ac2c3b7e4682ca5916c09475936">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=8a33cdd10671dda43c8e1058101560b2">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=36ab297e1e55d45c778a563287766d52"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=fb23be2ee7d0295b27d1334c878e9482"></script>
 </head>
 <body class="referenzen">
 
@@ -404,11 +404,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547742669"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=30c4c72e010087587f24d76a31a83d21"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989864"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=1accca4bceddedb4d9b0a3a5ecbc72f3"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=8787ba969ed7b8164c4cd5aaf41431cc"></script>
-<script src="js/min/main-min.js?ckcachebust=b53c447da0d1463bf04f4d5630d29b0a"></script>
+<script src="js/min/plugins-min.js?ckcachebust=442a60796e00d3d57e04d6e0a92c1040"></script>
+<script src="js/min/main-min.js?ckcachebust=af793db9c8be0ed2f3a14043ac13802e"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -416,13 +416,155 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547742669"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989864"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-580135-62', { 'anonymize_ip': true });
 
+</script>
+
+
+<!-- Cookie Warning banner (self sufficient) -->
+
+<style>
+    <!--
+
+    /* remove after tested successful */
+    body {
+        padding:0;
+        margin:0;
+    }
+    body.banner-visible footer {
+        padding-bottom:7em;
+    }
+    .cwb {
+        position: fixed;
+        bottom:0;
+        background:rgba(0,0,0,0.8);
+        width:100%;
+        z-index: 99999;
+        font-family: Helvetica, Arial, sans-serif;
+        display:none;
+    }
+    .cwb-wrapper {
+        padding:15px;
+        max-width:1280px;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+    }
+    .cwb-text {
+        flex-grow:1;
+        flex-shrink:1;
+        padding-right:15px;
+    }
+    .cwb-text p {
+        font-size:14px;
+        line-height:1.4;
+        color:#fff;
+        margin:0 0 10px 0;
+        padding:0;
+    }
+    .cwb-text h1 {
+        font-size:18px;
+        line-height:1.4;
+        color:#fff;
+        margin:10px 0;
+        padding:0;
+    }
+    .cwb-button {
+        width:180px;
+        flex-shrink:0;
+    }
+    .cwb-button button {
+        border:1px solid #fff;
+        margin:7px 0;
+        padding:6px 14px;
+        font-size:16px;
+        font-weight:bold;
+        color:#fff;
+        background:transparent;
+    }
+    .cwb-button button:hover {
+        background:#fff;
+        color:#000;
+    }
+    @media (max-width:768px) {
+        .cwb-wrapper {
+            flex-direction:column;
+        }
+        .cwb-text {
+            padding-right:0;
+        }
+        .cwb-text p {
+            font-size:12px;
+        }
+        .cwb-text h1 {
+            font-size:16px;
+        }
+        .cwb-button {
+            width:180px;
+            flex-shrink:0;
+        }
+        .cwb-button button {
+            font-size:14px;
+        }
+    }
+
+    /*
+        don't show cookie warning (user acknoledged already)
+        add ".cookies-accepted" class to body
+     */
+    .cwb-cookies-accepted .cwb {
+        display:none;
+    }
+
+    -->
+</style>
+
+
+<div class="cwb cookie-warning-banner">
+    <div class="cwb-wrapper">
+        <div class="cwb-text">
+            <h1>Einwilligungserkl&auml;rung</h1>
+            <p>Diese Website verwendet Cookies. Durch die Nutzung unserer Services erklären Sie sich damit einverstanden, dass wir Cookies setzen.</p>
+        </div>
+        <div class="cwb-button">
+            <button id="banner-confirm-button">Einverstanden</button>
+        </div>
+    </div>
+</div>
+
+<!-- EOF Cookie Warning -->
+
+
+<!--- To the Bottom -->
+<script>
+    $( document ).ready(function() {
+        var allCookies = document.cookie.split('; ');
+        var mycookies = Array();
+
+        for ( var i = 0; i < allCookies.length; i++) {
+            var cookiePair = allCookies[i].split('=');
+            mycookies[cookiePair[0]] = cookiePair[1];
+        }
+        if (!mycookies['banner-clicked'])
+        {
+            $('.cwb').show();
+            $('body').addClass("banner-visible");
+        }
+
+        $("#banner-confirm-button").click(function(){
+            var d = new Date();
+            d.setTime(d.getTime() + 2*365*24*60*60*1000); // in milliseconds
+            document.cookie="banner-clicked=true; expires="+d.toGMTString()+"; path=/";
+            $('.cwb').hide();
+            $('body').removeClass("banner-visible");
+        })
+    });
 </script>
 
 

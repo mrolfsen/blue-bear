@@ -8,10 +8,10 @@
     <meta name="description" content="Case Studies des blauen Bären">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=a3e6cef009da6da5213981ef0682a038">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=3d55d37769449c06099fe7cb052eedf5" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=8c9af812b072830692b27b9da350f00b" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=b851d37de525fc89e7d3d3acca5ce7bc">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=fa2b9a611d1e2db5442a8a10684cecbd">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=bc2ab65544af8510d45d0669b811c658" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=6a858da75c0f2261c652a64129a11563" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=f9a628f1b43222b20100ace0b2b37274">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=ceabd13909645c8857cfd3f939e5382e">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=9e55b9bb264ae0ff418903015b59b24f">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=d6c00bb43ed3faa1d8e8178b586bcaaf"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=52c90c07b474598def8c44861750632c"></script>
 </head>
 <body class="referenzen">
 
@@ -135,7 +135,6 @@ This may go into a sepearate file for easier maintenance
     Begin Content ==================
     ================================
     -->
-
 
 
 
@@ -367,11 +366,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547742671"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=78a4271e9873388fd6e69425be4e3964"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989937"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=fcf8fd13d606149e939e8a2fd5cc1254"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=6c13837a74e0bc60bd03adef0188e9b6"></script>
-<script src="js/min/main-min.js?ckcachebust=a2bcc1808ae7443e2c8b811b01ab13fd"></script>
+<script src="js/min/plugins-min.js?ckcachebust=c8fdcb39ea406462abd738ca6c7e4e9a"></script>
+<script src="js/min/main-min.js?ckcachebust=d40ac4ea25a8ed68ddee292816fa493b"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -379,13 +378,155 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547742671"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989937"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-580135-62', { 'anonymize_ip': true });
 
+</script>
+
+
+<!-- Cookie Warning banner (self sufficient) -->
+
+<style>
+    <!--
+
+    /* remove after tested successful */
+    body {
+        padding:0;
+        margin:0;
+    }
+    body.banner-visible footer {
+        padding-bottom:7em;
+    }
+    .cwb {
+        position: fixed;
+        bottom:0;
+        background:rgba(0,0,0,0.8);
+        width:100%;
+        z-index: 99999;
+        font-family: Helvetica, Arial, sans-serif;
+        display:none;
+    }
+    .cwb-wrapper {
+        padding:15px;
+        max-width:1280px;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+    }
+    .cwb-text {
+        flex-grow:1;
+        flex-shrink:1;
+        padding-right:15px;
+    }
+    .cwb-text p {
+        font-size:14px;
+        line-height:1.4;
+        color:#fff;
+        margin:0 0 10px 0;
+        padding:0;
+    }
+    .cwb-text h1 {
+        font-size:18px;
+        line-height:1.4;
+        color:#fff;
+        margin:10px 0;
+        padding:0;
+    }
+    .cwb-button {
+        width:180px;
+        flex-shrink:0;
+    }
+    .cwb-button button {
+        border:1px solid #fff;
+        margin:7px 0;
+        padding:6px 14px;
+        font-size:16px;
+        font-weight:bold;
+        color:#fff;
+        background:transparent;
+    }
+    .cwb-button button:hover {
+        background:#fff;
+        color:#000;
+    }
+    @media (max-width:768px) {
+        .cwb-wrapper {
+            flex-direction:column;
+        }
+        .cwb-text {
+            padding-right:0;
+        }
+        .cwb-text p {
+            font-size:12px;
+        }
+        .cwb-text h1 {
+            font-size:16px;
+        }
+        .cwb-button {
+            width:180px;
+            flex-shrink:0;
+        }
+        .cwb-button button {
+            font-size:14px;
+        }
+    }
+
+    /*
+        don't show cookie warning (user acknoledged already)
+        add ".cookies-accepted" class to body
+     */
+    .cwb-cookies-accepted .cwb {
+        display:none;
+    }
+
+    -->
+</style>
+
+
+<div class="cwb cookie-warning-banner">
+    <div class="cwb-wrapper">
+        <div class="cwb-text">
+            <h1>Einwilligungserkl&auml;rung</h1>
+            <p>Diese Website verwendet Cookies. Durch die Nutzung unserer Services erklären Sie sich damit einverstanden, dass wir Cookies setzen.</p>
+        </div>
+        <div class="cwb-button">
+            <button id="banner-confirm-button">Einverstanden</button>
+        </div>
+    </div>
+</div>
+
+<!-- EOF Cookie Warning -->
+
+
+<!--- To the Bottom -->
+<script>
+    $( document ).ready(function() {
+        var allCookies = document.cookie.split('; ');
+        var mycookies = Array();
+
+        for ( var i = 0; i < allCookies.length; i++) {
+            var cookiePair = allCookies[i].split('=');
+            mycookies[cookiePair[0]] = cookiePair[1];
+        }
+        if (!mycookies['banner-clicked'])
+        {
+            $('.cwb').show();
+            $('body').addClass("banner-visible");
+        }
+
+        $("#banner-confirm-button").click(function(){
+            var d = new Date();
+            d.setTime(d.getTime() + 2*365*24*60*60*1000); // in milliseconds
+            document.cookie="banner-clicked=true; expires="+d.toGMTString()+"; path=/";
+            $('.cwb').hide();
+            $('body').removeClass("banner-visible");
+        })
+    });
 </script>
 
 
