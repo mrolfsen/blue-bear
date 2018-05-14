@@ -9,10 +9,10 @@
     <meta name="description" content="Referenz: Deco Glas">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=97a93ae438132789e3f978b1da4cd2fd">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=22ea7099dedabf851151f485c9707ed5" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=a81ba668bae63bf7645a372e097f61c9" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=4e6741279329a437f9019d22b065c7e4">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=4e3ac30e2e95f9681797282649530775">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=b725f4ecf5e6599407ed617a7acb7921" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=fd1037f45d069be8211a77b03d4ea839" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=5276161970a83acf940e967c8dc3210d">
 
     <!-- OG:tags -->
 
@@ -23,9 +23,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=e7913a1ae0252d8e0e9c43d07c38ec20">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=39ba66ed6a1732acc8e4842b9d23c1c0">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=efe7aa5538201e9cb6b3acd9142e54fe"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=f5325d5f640e03893c1231d6b3f623e7"></script>
 </head>
 <body class="referenzen">
 
@@ -396,11 +396,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989864"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=903f14004fb71bdb2dbbc59e3c4c6188"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=2968bc9e8595fcd5971e16cfa04a2afe"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=0e519de002b480a27a6e944b0b7446d4"></script>
-<script src="js/min/main-min.js?ckcachebust=f9d6c2bdfaf54c092b9c4feb9cf7b474"></script>
+<script src="js/min/plugins-min.js?ckcachebust=6c33385047f6bb1450278fbed172f636"></script>
+<script src="js/min/main-min.js?ckcachebust=9fba55f5a43a716d1cb9b917bac1e271"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -408,7 +408,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989864"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -484,7 +484,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }

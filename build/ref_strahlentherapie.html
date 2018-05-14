@@ -10,10 +10,10 @@
     <meta name="description" content="Referenz: Strahlentherapie Bonn-Rhein-Sieg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=3525ef1150c8721d743380f41163438b">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=329e1333f7983817d06c178fdfb46b38" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=b40c8dcb77d2bcf0e53a12708bb56481" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=f598b86285a8e7294435bae7b8939bd0">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=47c4c79eda978934b2a9f9816c980260">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=d6eddf2489fee93c6f1a7e855f42fc6e" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=3072c44348bb2979fb95a8eaab35065a" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=e309bc99d1e7a89f967f64cb510da93f">
 
     <!-- OG:tags -->
 
@@ -24,9 +24,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=e9277755b55d4d91419580c246c11477">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=85d229ea27ee0a5ab21aa0cdc76d5a03">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=9159efd66ed45beda753d204e1ae93f2"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=f8ae28d9cef231e4708edaee0a0ccc99"></script>
 </head>
 <body class="referenzen">
 
@@ -409,11 +409,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989864"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=726e7f6be9a23d366a48ed87332dcd2d"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990402"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=11ddf604d9f2ccf91f55899338cfe6f6"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=ced2bf2c8a9fbca2aacfdafcec8d0fa7"></script>
-<script src="js/min/main-min.js?ckcachebust=f5bd69160c399e028aad550983499b12"></script>
+<script src="js/min/plugins-min.js?ckcachebust=e12b1ce31599c5f543e23785b3e81521"></script>
+<script src="js/min/main-min.js?ckcachebust=486cab543fc20a27d264bde3fdde18d2"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -421,7 +421,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989864"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990402"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -497,7 +497,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }

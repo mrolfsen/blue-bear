@@ -8,10 +8,10 @@
     <meta name="description" content="Nehmen Sie Kontakt auf mit dem blauen Bären">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=237471906487daaa799cdcbaeff618d5">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=0fa2411e5545bb398565b3c579ca8b3f" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=2d333355c85d2fd1058dd687ab43a788" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=d0f51e7d7770cb6e31c7314a3f4e402c">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=23947ae30f8af9d77a5cac2423cb7d63">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=777ba8055ef2e7f5c5f247e3b5846e7b" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=e07c93fdbb91b4d240ab44041e59fd93" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=810133fd6406176c1cc702d983ea83ca">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=4ea828d19b33abd94d3d8f79fe340ead">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=7c4ed32afc2f8c578474e8855b0de74f">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=4f6b45b6b54afc970d28a65666e2e905"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=1aca31c8f1b5eda44a6054c566eb0d73"></script>
 </head>
 <body class="kontakt">
 
@@ -249,7 +249,7 @@ This may go into a sepearate file for easier maintenance
                 }
             </script>
             <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPM5kStrWuvKdQO_ZSY4z6JFM8l44IGI&callback=initMap&ckcachebust=547989863">
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPM5kStrWuvKdQO_ZSY4z6JFM8l44IGI&callback=initMap&ckcachebust=547990401">
             </script>
         </section>
 
@@ -338,11 +338,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989863"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=caa5db37a19514431cdefe6598d7a4dd"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=0658057f46a7b7a4a26d7cb5dd1279e8"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=0dd3927cffaf55016436079d5beed3ea"></script>
-<script src="js/min/main-min.js?ckcachebust=44b98c04e596e9ac1bda4c628f1881ad"></script>
+<script src="js/min/plugins-min.js?ckcachebust=ed4de58526876af2117717c83cc32b44"></script>
+<script src="js/min/main-min.js?ckcachebust=8af5db6cb11fc80429893dbe3b586e7a"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -350,7 +350,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989863"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -426,7 +426,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }

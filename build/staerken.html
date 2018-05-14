@@ -8,10 +8,10 @@
     <meta name="description" content="Die Stärken des blauen Bären">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=9bbf878328a1e09bdbdbe4505d17fbd6">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=5441f3d6c21d6fcf687c392c81184332" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=f71dc4ccfd30d47cbfd79e687aaec0e1" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=28a3f70e9088a596a47715cea3c2923d">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=c0f7a64eb358ad05d2b29f6cad2e0dad">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=d1bbf03b73d9a9a08c395b7528024e54" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=243d330971575850491788c441bb264a" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=b4246b020f51f1e12b51ccf0e545c0a6">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=fb636d2ef015c3b16c14caf941247b0c">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=07538f95ed99a5d49a684ed952a49ae9">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=0cf352dcd98f4401e497229637974743"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=31d4f2b91116d2f7b6087e01f802e2fc"></script>
 </head>
 <body class="staerken">
 
@@ -314,11 +314,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989863"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=7a358c971c5ac5ea4a0614b23e0faaa2"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=73d09d06f0f63b702723de850ccdd79c"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=5ae97bcb12fdf841aca7cf25f615e46a"></script>
-<script src="js/min/main-min.js?ckcachebust=98f21fdadaafedf69190e9bb8ea823f7"></script>
+<script src="js/min/plugins-min.js?ckcachebust=c1db9021b873d764f2e0956baca11afb"></script>
+<script src="js/min/main-min.js?ckcachebust=796eeb31d429079f17ded9857a758565"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -326,7 +326,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989863"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -402,7 +402,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }

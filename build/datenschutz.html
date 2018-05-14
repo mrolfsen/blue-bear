@@ -8,10 +8,10 @@
     <meta name="description" content="Der blaue Bär - Datenschutz">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=3f0f7a461601372fe295a6507dbd9454">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=e1a33c011271b2f0c3d8e4127168c260" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=3dfce49236bdedffdc5cdd2768861804" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=6b64e528e950916df648ecd1c537ccb2">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=726a8d9ac7dad9a4137b02e5ce149572">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=1b9b3f19f07c1f0cb291743aa5744094" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=266af18bf376fdefa96b4810e70ab7bb" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=99910299fef2adc3dad189ba0fd97fbf">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=9a1801116bacc27d5a3ab23676865ecc">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=a6909e74a258815b3610fda891afd0f9">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=0cc624cee6b6b4083505eed4ee7b1750"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=a41a53707f0c5dcb1bb9ab465e002989"></script>
 </head>
 <body class="datenschutz">
 
@@ -436,11 +436,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989863"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=6dde84987bb43f1ed359ae08bcaf50ec"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=e769b40a226413108c55acda417b5ed5"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=686f8f37d863640d2a9f4b679406a07f"></script>
-<script src="js/min/main-min.js?ckcachebust=2d0c7126d5fefb7af8355f4cef26a4cb"></script>
+<script src="js/min/plugins-min.js?ckcachebust=d4d355c5d3185837c34b8179355e2557"></script>
+<script src="js/min/main-min.js?ckcachebust=99062fb52a174b28783e4a410d832cbd"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -448,7 +448,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989863"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -524,7 +524,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }

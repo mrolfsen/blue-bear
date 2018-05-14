@@ -11,10 +11,10 @@
     <meta name="description" content="Referenz: Gezeiten Haus">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=bcf8f137dcd916e8dc88f432f6bd9dd0">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=ca20941f291748dfde2a8f4dd7af94e4" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=e43309e2b1f54003cace24268eb194bd" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=7319e16c3ca4481e50a2051ed802a680">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=49aa103aecd1b2037d320ba54c405c2e">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=844575a94bb7235f71a7acc6218cc448" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=07794cd997ab9fd60540c4f837910e0f" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=dc456df167881215691aa7e8143ca01a">
 
     <!-- OG:tags -->
 
@@ -25,9 +25,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=b54bfb9cd186ae270d2a587e3387a8f1">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=7cbf8c7bb0e29c0d51eb668f4959a76b">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=6c39972b000995a06617fbb92d850cff"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=668d0b39a32451a0c685b801e970d39e"></script>
 </head>
 <body class="referenzen">
 
@@ -404,11 +404,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989863"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=c3a59c6fd2928295016f7451a43f8830"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=a5ea238367110c78089bd268d423d98e"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=381e4bb4a3f66b4a8739f9a9fc8c19f5"></script>
-<script src="js/min/main-min.js?ckcachebust=2196773cefa9a9a24653b11472cc108b"></script>
+<script src="js/min/plugins-min.js?ckcachebust=d5dacb7cff4bce12ffd846486bef02fa"></script>
+<script src="js/min/main-min.js?ckcachebust=22ce450ed924d34add49929d1bba7c5b"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -416,7 +416,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989863"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -492,7 +492,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }
