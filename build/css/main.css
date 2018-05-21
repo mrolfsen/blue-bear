@@ -1314,6 +1314,10 @@ h2 {
     font: 700 3em/1.2 'Playfair Display', serif;
   }
 }
+h3 {
+  font: 700 1.9em/1.4 'Source Sans Pro', sans-serif;
+  margin-bottom: -0.8em;
+}
 h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
@@ -1341,6 +1345,7 @@ p {
 p a {
   color: #000;
   text-decoration: underline #E2353C;
+  cursor: pointer;
 }
 small {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
@@ -1355,6 +1360,16 @@ blockquote {
 blockquote p {
   font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
+}
+@media (min-width: 768px) {
+  .stickyquote {
+    display: flex;
+    flex-direction: row;
+  }
+  .stickyquote blockquote {
+    position: sticky;
+    top: 1em;
+  }
 }
 a.btn {
   font: 700 1.3em/1.4 'Source Sans Pro', sans-serif;
@@ -1807,6 +1822,52 @@ footer ul.partner-logos li.hartgekocht img {
 .impressum footer a.impressum,
 .agb footer a.agb {
   color: #1E1964;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: .5em 1.0em 1.5em 1.0em;
+  }
+  footer .container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  footer .container-fluid .logo-container {
+    flex: 1 1 10%;
+  }
+  footer .container-fluid .logo-container .logo {
+    padding: 0.5em 0 0.5em;
+  }
+  footer .container-fluid .whatis {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 20%;
+  }
+  footer .container-fluid .whois {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container-fluid .whois p {
+    flex-grow: 1;
+  }
+  footer .container-fluid .whois .partner-logos {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .container-fluid .social-support {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 292px;
+  }
+  footer .container-fluid .social-support .social-buttons {
+    flex-grow: 1;
+  }
+  footer .container-fluid .social-support nav ul {
+    margin: 0;
+    padding: 0;
+  }
 }
 .blue-section {
   background: #1E1964;
