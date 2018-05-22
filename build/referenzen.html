@@ -8,10 +8,10 @@
     <meta name="description" content="Case Studies des blauen Bären">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=fa2b9a611d1e2db5442a8a10684cecbd">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=bc2ab65544af8510d45d0669b811c658" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=6a858da75c0f2261c652a64129a11563" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=f9a628f1b43222b20100ace0b2b37274">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=3a154e8b48eb98da43adb09d7c325ea3">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=ba271576559a9a9f79fce99e448d6075" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=189faa38b4659bd7031bfa81f0a43df3" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=1010dae21d84cfb10307de6552641dbe">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=9e55b9bb264ae0ff418903015b59b24f">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=73e03550f8940f6fec7b00810d0d1416">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=52c90c07b474598def8c44861750632c"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=868dbb575f6da31989eaf09abc8c2bf3"></script>
 </head>
 <body class="referenzen">
 
@@ -135,6 +135,7 @@ This may go into a sepearate file for easier maintenance
     Begin Content ==================
     ================================
     -->
+
 
 
 
@@ -366,11 +367,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547989937"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=fcf8fd13d606149e939e8a2fd5cc1254"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=548684286"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=10fcae2c5f0db6e4a7b4a11aef5d187f"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=c8fdcb39ea406462abd738ca6c7e4e9a"></script>
-<script src="js/min/main-min.js?ckcachebust=d40ac4ea25a8ed68ddee292816fa493b"></script>
+<script src="js/min/plugins-min.js?ckcachebust=d217cbf2b03c4905837623db7ea63784"></script>
+<script src="js/min/main-min.js?ckcachebust=37301b396ecd48f75aa6bf32a393e20c"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -378,7 +379,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547989937"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=548684286"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -388,12 +389,12 @@ FOOTER =========================
 </script>
 
 
-<!-- Cookie Warning banner (self sufficient) -->
+<!-- Cookie Banner (self sufficient) -->
 
 <style>
     <!--
 
-    /* remove after tested successful */
+
     body {
         padding:0;
         margin:0;
@@ -454,7 +455,14 @@ FOOTER =========================
         background:#fff;
         color:#000;
     }
+    @media (max-width:991px) {
+        body.banner-visible footer {
+            padding-bottom: 14em;
+        }
+    }
+
     @media (max-width:768px) {
+
         .cwb-wrapper {
             flex-direction:column;
         }
@@ -477,7 +485,7 @@ FOOTER =========================
     }
 
     /*
-        don't show cookie warning (user acknoledged already)
+        don't show cookie banner (user acknoledged already)
         add ".cookies-accepted" class to body
      */
     .cwb-cookies-accepted .cwb {
@@ -488,7 +496,7 @@ FOOTER =========================
 </style>
 
 
-<div class="cwb cookie-warning-banner">
+<div class="cwb cookie-banner">
     <div class="cwb-wrapper">
         <div class="cwb-text">
             <h1>Einwilligungserkl&auml;rung</h1>
@@ -500,7 +508,7 @@ FOOTER =========================
     </div>
 </div>
 
-<!-- EOF Cookie Warning -->
+<!-- EOF Cookie Banner -->
 
 
 <!--- To the Bottom -->

@@ -8,10 +8,10 @@
     <meta name="description" content="Der blaue Bär - Datenschutz">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=726a8d9ac7dad9a4137b02e5ce149572">
-    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=1b9b3f19f07c1f0cb291743aa5744094" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=266af18bf376fdefa96b4810e70ab7bb" sizes="16x16" />
-    <link rel="icon" href="assets/favicon.ico?ckcachebust=99910299fef2adc3dad189ba0fd97fbf">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?ckcachebust=0f727efef6d19906d56077d08a94aa04">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png?ckcachebust=5237276ee90e8295e4219fca9ca3efba" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png?ckcachebust=fb2bb2a93eadf09acbdc46a2871673b4" sizes="16x16" />
+    <link rel="icon" href="assets/favicon.ico?ckcachebust=6f793753fab61507c223b16b59289bf2">
 
     <!-- OG:tags -->
 
@@ -22,9 +22,9 @@
 
 
     <!-- all the compiled goodness: -->
-    <link rel="stylesheet" href="css/main.css?ckcachebust=a6909e74a258815b3610fda891afd0f9">
+    <link rel="stylesheet" href="css/main.css?ckcachebust=9723799e946feaa9ba748c8e799bbe00">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=a41a53707f0c5dcb1bb9ab465e002989"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js?ckcachebust=c53a8c5a5bb6fe1554475e19dea76f9d"></script>
 </head>
 <body class="datenschutz">
 
@@ -342,6 +342,8 @@ This may go into a sepearate file for easier maintenance
                             Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: <a href="https://www.google.de/intl/de/policies/privacy/">https://www.google.de/intl/de/policies/privacy/</a>.</p>
 
 
+                        <h4>jQuery über ajax.googleapis.com/ jQuery</h4>
+                        <p>Auf unseren Internetseiten verwenden wir die Javascript-Bibliothek jQuery. Um die Ladegeschwindigkeit unserer Website zu erhöhen, verwenden wir das CDN (content delivery network) von Google um diese Bibliothek zu laden. Die Wahrscheinlichkeit ist sehr groß, dass sie jQuery bereits auf einer anderen Seite vom Google CDN verwendet haben. In dem Fall kann Ihr Browser auf die im Cache gespeicherte Kopie zurückgreifen und sie muss nicht noch einmal heruntergeladen werden. Sollte Ihr Browser keine Kopie im Cache gespeichert haben oder aus einem anderen Grund die Datei vom Google CDN herunter laden, so werden wiederum Daten von Ihrem Browser an Google Inc. (“Google”) übertragen. Weitere Informationen über die Datenverarbeitung durch Google entnehmen Sie bitte den Datenschutzhinweisen von Google, derzeit abrufbar unter: <a href="https://www.google.de/intl/de/policies/privacy/">https://www.google.de/intl/de/policies/privacy/</a></p>
                     </div>
                 </div>
 
@@ -436,11 +438,11 @@ FOOTER =========================
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=547990401"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=e769b40a226413108c55acda417b5ed5"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js?ckcachebust=548684717"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js?ckcachebust=9eb4df2fdfedf55ea1bc16b0813e1142"><\/script>')</script>
 
-<script src="js/min/plugins-min.js?ckcachebust=d4d355c5d3185837c34b8179355e2557"></script>
-<script src="js/min/main-min.js?ckcachebust=99062fb52a174b28783e4a410d832cbd"></script>
+<script src="js/min/plugins-min.js?ckcachebust=ae84a3a342e7d723361868c4e9a9913d"></script>
+<script src="js/min/main-min.js?ckcachebust=404095ab994845dfb18bc16fe8225fd2"></script>
 
 
 <script type="text/javascript"> var gaProperty = 'UA-580135-62'; var disableStr = 'ga-disable-' + gaProperty; if (document.cookie.indexOf(disableStr + '=true') > -1) { window[disableStr] = true; } function gaOptout() { document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; window[disableStr] = true; } </script>
@@ -448,7 +450,7 @@ FOOTER =========================
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=547990401"></script>
+        src="https://www.googletagmanager.com/gtag/js?id=UA-580135-62&ckcachebust=548684717"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -458,12 +460,12 @@ FOOTER =========================
 </script>
 
 
-<!-- Cookie Warning banner (self sufficient) -->
+<!-- Cookie Banner (self sufficient) -->
 
 <style>
     <!--
 
-    /* remove after tested successful */
+
     body {
         padding:0;
         margin:0;
@@ -554,7 +556,7 @@ FOOTER =========================
     }
 
     /*
-        don't show cookie warning (user acknoledged already)
+        don't show cookie banner (user acknoledged already)
         add ".cookies-accepted" class to body
      */
     .cwb-cookies-accepted .cwb {
@@ -565,7 +567,7 @@ FOOTER =========================
 </style>
 
 
-<div class="cwb cookie-warning-banner">
+<div class="cwb cookie-banner">
     <div class="cwb-wrapper">
         <div class="cwb-text">
             <h1>Einwilligungserkl&auml;rung</h1>
@@ -577,7 +579,7 @@ FOOTER =========================
     </div>
 </div>
 
-<!-- EOF Cookie Warning -->
+<!-- EOF Cookie Banner -->
 
 
 <!--- To the Bottom -->
