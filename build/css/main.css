@@ -1586,6 +1586,64 @@ header.light-header h1 {
   text-transform: uppercase;
   color: #1E1964;
 }
+.masthead {
+  position: relative;
+}
+.masthead h1 {
+  margin: 0;
+  padding: 0;
+  font: 900 9em/0.9 'Source Sans Pro', sans-serif;
+  letter-spacing: -0.02em;
+  bottom: 0;
+  text-transform: uppercase;
+  color: transparent;
+  background-image: linear-gradient(149deg, rgba(30, 25, 100, 0.92) 2%, rgba(141, 41, 77, 0.92) 68%, rgba(226, 53, 53, 0.92) 100%);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+  .masthead h1 {
+    font: 900 5em/0.9 'Source Sans Pro', sans-serif;
+  }
+}
+@media (min-width: 768px) {
+  .masthead .category-heading {
+    position: fixed;
+    top: 14em;
+    right: 3em;
+  }
+  .masthead .category-heading__container {
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+  }
+  .masthead .category-heading h3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #1E1964;
+    width: 46vh;
+  }
+  .masthead .category-heading h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid #1E1964;
+    width: 100%;
+    top: .7em;
+  }
+  .masthead .category-heading h3 span {
+    text-transform: uppercase;
+    display: inline-block;
+    flex-grow: 0;
+    background: #fff;
+    padding: 0 .3em;
+    z-index: 1;
+  }
+}
 nav.main-nav {
   text-align: right;
   position: absolute;
@@ -1625,6 +1683,7 @@ nav.main-nav ul li a:hover:after {
 /* mark the navi */
 .staerken .main-nav .staerken a,
 .partner .main-nav .partner a,
+.themen .main-nav .themen a,
 .referenzen .main-nav .referenzen a,
 .kontakt .main-nav .kontakt a {
   color: #E2353C;
@@ -1685,6 +1744,12 @@ nav.main-nav ul li a:hover:after {
   }
   nav.main-nav ul li:nth-child(4) {
     transition-delay: .4s;
+  }
+  nav.main-nav ul li:nth-child(5) {
+    transition-delay: .5s;
+  }
+  nav.main-nav ul li:nth-child(6) {
+    transition-delay: .6s;
   }
   nav.main-nav ul li a {
     font: 800 2.8em/1.2 'Source Sans Pro', sans-serif;

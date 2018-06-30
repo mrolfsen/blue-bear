@@ -184,3 +184,72 @@ header.light-header {
     color:@blue;
   }
 }
+
+//header w/ mast-head typo (themen)
+
+
+.masthead {
+  position: relative;
+  h1 {
+    margin: 0;
+    padding: 0;
+    font: 900 9em/0.9 @sans-serif-font;
+    letter-spacing: -0.02em;
+    bottom: 0;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: linear-gradient(149deg, fade(#1E1964, 92%) 2%, fade(#8D294D, 92%) 68%, fade(#E23535, 92%) 100%);
+    //background-size: 51% 100%;
+    //background-position: top left, top right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (max-width: @screen-xs-max) {
+      font: 900 5em/0.9 @sans-serif-font;
+    }
+  }
+  // super special: the (vertical) Category-heading
+
+  @media (min-width: @screen-sm-min) {
+    .category-heading {
+      position: fixed;
+      top: 14em;
+      right: 3em;
+
+      &__container {
+        transform: rotate(-90deg);
+        transform-origin: bottom right;
+
+      }
+      h3 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font: 600 1.2em/1.4 @sans-serif-font;
+        text-transform: uppercase;
+        color: @blue;
+        width: 46vh;
+        &:after {
+          content: "";
+          position: absolute;
+          display: block;
+          border-bottom: 1px solid @blue;
+          width: 100%;
+          top: .7em;
+        }
+
+        span {
+          text-transform: uppercase;
+          display: inline-block;
+          flex-grow: 0;
+          background: @white;
+          padding: 0 .3em;
+          z-index: 1;
+        }
+
+      }
+    }
+  }
+}
