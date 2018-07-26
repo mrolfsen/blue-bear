@@ -1634,19 +1634,49 @@ nav.main-nav ul li a:hover:after {
   outline: none !important;
 }
 @media (max-width: 480px) {
+  body.nav-open {
+    overflow: hidden;
+  }
   .navToggle {
-    display: block;
-    border: none;
-    background: transparent;
     color: #fff;
     position: absolute;
     top: -1em;
     right: -1em;
-    padding: 0.8em;
+    border: none;
+    background: transparent;
+    display: block;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    height: 55px;
+    width: 54px;
+    transition: background 0.4s ease-in-out;
   }
-  .burger-icon {
-    height: 17px;
-    width: 24px;
+  .navToggle path {
+    transition: all 0.4s ease-in-out;
+  }
+  .navToggle path#burger-upper {
+    transform: rotate(0deg);
+    transform-origin: 22px 1px;
+  }
+  .navToggle path#burger-lower {
+    transform: rotate(0deg);
+    transform-origin: 23px 16px;
+  }
+  .navToggle path#burger-middle {
+    opacity: 1;
+  }
+  .navToggle.close-button {
+    color: #1E1964 !important;
+  }
+  .navToggle.close-button path#burger-upper {
+    transform: translateX(-2px) rotate(-45deg);
+  }
+  .navToggle.close-button path#burger-lower {
+    transform: translateX(-2px) rotate(45deg);
+  }
+  .navToggle.close-button path#burger-middle {
+    opacity: 0;
   }
   nav.main-nav {
     z-index: 3;

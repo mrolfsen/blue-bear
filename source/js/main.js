@@ -13,16 +13,22 @@ $(document).ready(function() {
 
     $('#navToggle').click(function () {
         $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
+        $(".navToggle").toggleClass("close-button");
         $('.blur-this').toggleClass('blur-me');
+        $('body').toggleClass('nav-open');
     });
+    /*
     $('#navToggleClose').click(function () {
         $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
+        $(".navToggle").toggleClass("close-button");
         $('.blur-this').toggleClass('blur-me');
     });
     $('.visible-mobile a').click(function () {
         $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
+        $(".navToggle").toggleClass("close-button");
         $('.blur-this').toggleClass('blur-me');
     });
+    */
 
 
     /* Anchor slide init */
