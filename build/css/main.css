@@ -1683,7 +1683,7 @@ nav.main-nav ul li a:hover:after {
 /* mark the navi */
 .staerken .main-nav .staerken a,
 .partner .main-nav .partner a,
-.themen .main-nav .themen a,
+.expertise .main-nav .expertise a,
 .referenzen .main-nav .referenzen a,
 .kontakt .main-nav .kontakt a {
   color: #E2353C;
@@ -1980,6 +1980,7 @@ footer ul.partner-logos li.hartgekocht img {
 }
 .gray-section {
   background: #F5F5F5;
+  position: relative;
 }
 .red-section {
   background: #E2353C;
