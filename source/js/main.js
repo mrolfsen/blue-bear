@@ -1,40 +1,29 @@
 // here goes all the JS
 
+// Reveal navigation when scroll up
+var lastScrollPosition = 0;
+window.onscroll = function() {
+    var newScrollPosition = window.scrollY;
+
+    if (newScrollPosition < lastScrollPosition){
+        $('.main-nav').addClass('reveal-burger');
+    }else{
+        $('.main-nav').removeClass('reveal-burger');
+    }
+    lastScrollPosition = newScrollPosition;
+}
+
 $(document).ready(function() {
 
-    // set the navbar to pos.fixed when scrolling down the page
-
-    $('#main').waypoint(function(event, direction) {
-        $('#header').toggleClass('sticky', direction === "down");
-        event.stopPropagation();
-    });
-
     // Toggle the navigation in mobile view
-
     $('#navToggle').click(function () {
         $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
         $(".navToggle").toggleClass("close-button");
         $('.blur-this').toggleClass('blur-me');
         $('body').toggleClass('nav-open');
     });
-    /*
-    $('#navToggleClose').click(function () {
-        $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
-        $(".navToggle").toggleClass("close-button");
-        $('.blur-this').toggleClass('blur-me');
-    });
-    $('.visible-mobile a').click(function () {
-        $('.main-nav ul').fadeToggle(200).toggleClass('visible-mobile');
-        $(".navToggle").toggleClass("close-button");
-        $('.blur-this').toggleClass('blur-me');
-    });
-    */
-
 
     /* Anchor slide init */
-
-    $(document).ready(function() {
-        $("a.anchorlink").anchorAnimate();
-    });
+   // $("a.anchorlink").anchorAnimate();
 
 });
