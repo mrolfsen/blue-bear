@@ -2006,6 +2006,7 @@ footer ul.partner-logos li.hartgekocht img {
   background: #1E1964;
 }
 .team-mates figure,
+.expertise-article figure,
 .ref-intro figure {
   margin: 1em 0 3em;
   padding: 0;
@@ -2013,15 +2014,18 @@ footer ul.partner-logos li.hartgekocht img {
   position: relative;
 }
 .team-mates figure .image-container,
+.expertise-article figure .image-container,
 .ref-intro figure .image-container {
   margin: 0;
 }
 .team-mates figure figcaption,
+.expertise-article figure figcaption,
 .ref-intro figure figcaption {
   background: #fff;
   padding: 2em;
 }
 .team-mates figure figcaption h4,
+.expertise-article figure figcaption h4,
 .ref-intro figure figcaption h4 {
   font: 700 1.8em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
@@ -2029,43 +2033,53 @@ footer ul.partner-logos li.hartgekocht img {
   paddimg: 0;
 }
 .team-mates figure figcaption span.title,
+.expertise-article figure figcaption span.title,
 .ref-intro figure figcaption span.title {
   font: italic 500 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
   display: block;
 }
 .team-mates figure figcaption span.function,
+.expertise-article figure figcaption span.function,
 .ref-intro figure figcaption span.function {
   font: 600 1.2em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
   display: block;
 }
 .team-mates figure figcaption p,
+.expertise-article figure figcaption p,
 .ref-intro figure figcaption p,
 .team-mates figure figcaption dt,
+.expertise-article figure figcaption dt,
 .ref-intro figure figcaption dt,
 .team-mates figure figcaption dd,
+.expertise-article figure figcaption dd,
 .ref-intro figure figcaption dd {
   font: 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
 }
 .team-mates figure figcaption dt,
+.expertise-article figure figcaption dt,
 .ref-intro figure figcaption dt {
   font-weight: 700;
 }
 .team-mates figure figcaption a,
+.expertise-article figure figcaption a,
 .ref-intro figure figcaption a {
   font: italic 500 1.1em/1.4 'Source Sans Pro', sans-serif;
   color: #E2353C;
 }
 @media (min-width: 768px) {
   .team-mates figure,
+  .expertise-article figure,
   .ref-intro figure {
     position: relative;
   }
   .team-mates figure:before,
+  .expertise-article figure:before,
   .ref-intro figure:before,
   .team-mates figure:after,
+  .expertise-article figure:after,
   .ref-intro figure:after {
     content: " ";
     /* 1 */
@@ -2073,15 +2087,18 @@ footer ul.partner-logos li.hartgekocht img {
     /* 2 */
   }
   .team-mates figure:after,
+  .expertise-article figure:after,
   .ref-intro figure:after {
     clear: both;
   }
   .team-mates figure .image-container,
+  .expertise-article figure .image-container,
   .ref-intro figure .image-container {
     width: 56%;
     margin: 0;
   }
   .team-mates figure figcaption,
+  .expertise-article figure figcaption,
   .ref-intro figure figcaption {
     position: absolute;
     top: 2em;
@@ -2089,34 +2106,44 @@ footer ul.partner-logos li.hartgekocht img {
     margin-left: 50%;
   }
   .team-mates figure.align-right .image-container,
+  .expertise-article figure.align-right .image-container,
   .ref-intro figure.align-right .image-container {
     float: right;
   }
   .team-mates figure.align-right figcaption,
+  .expertise-article figure.align-right figcaption,
   .ref-intro figure.align-right figcaption {
     margin-left: 8%;
     text-align: right;
   }
 }
 .team-mates figcaption.blue,
+.expertise-article figcaption.blue,
 .ref-intro figcaption.blue {
   background: #1E1964;
 }
 .team-mates figcaption.red,
+.expertise-article figcaption.red,
 .ref-intro figcaption.red {
   background: #E2353C;
 }
 .team-mates figcaption.red h4,
+.expertise-article figcaption.red h4,
 .ref-intro figcaption.red h4,
 .team-mates figcaption.red span.title,
+.expertise-article figcaption.red span.title,
 .ref-intro figcaption.red span.title,
 .team-mates figcaption.red span.function,
+.expertise-article figcaption.red span.function,
 .ref-intro figcaption.red span.function,
 .team-mates figcaption.red p,
+.expertise-article figcaption.red p,
 .ref-intro figcaption.red p,
 .team-mates figcaption.red dt,
+.expertise-article figcaption.red dt,
 .ref-intro figcaption.red dt,
 .team-mates figcaption.red dd,
+.expertise-article figcaption.red dd,
 .ref-intro figcaption.red dd {
   color: #1E1964;
 }
