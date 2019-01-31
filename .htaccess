@@ -166,3 +166,7 @@ DirectoryIndex index.html
 # force utf-8 for a number of file formats
 AddCharset utf-8 .html .css .js .xml .json .rss
 
+# SSL Redirekt
+RewriteCond %{SERVER_PORT}   !^443$
+RewriteRule  (.*)  https://%{HTTP_HOST}/$1   [L]
+# SSL Redirekt EOF
